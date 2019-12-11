@@ -1026,3 +1026,210 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.12.11-20.32.51:747][711]LogSavePackage: Moving '../../../../../../Users/Enrique/Documents/GitHub/Narutaco/Narutaco/Saved/project424C964A4F4D4EF834B164A4B05F99C0.tmp' to '../../../../../../Users/Enrique/Documents/GitHub/Narutaco/Narutaco/Content/level/project.umap'
 [2019.12.11-20.32.51:773][711]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/level/project_BuiltData" FILE="../../../../../../Users/Enrique/Documents/GitHub/Narutaco/Narutaco/Content/level/project_BuiltData.uasset" SILENT=true
 [2019.12.11-20.32.51:783][711]LogSavePackage: Moving '../../../../../../Users/Enrique/Documents/GitHub/Narutaco/Narutaco/Saved/project_BuiltData8B582280416CC4DC049980B272CC6EB3.tmp' to '../../../../../../Users/Enrique/Documents/GitHub/Narutaco/Narutaco/Content/level/project_BuiltData.uasset'
+[2019.12.11-20.33.31:943][831]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.11-20.33.32:018][840]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.12.11-20.33.32:030][840]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/level/project.project:PersistentLevel' has LevelScriptBlueprint '/Game/level/project.project:PersistentLevel.project' with GeneratedClass '/Game/level/project.project_C' with ClassGeneratedBy '/Game/level/project.project:PersistentLevel.project'
+[2019.12.11-20.33.32:030][840]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.12.11-20.33.32:030][840]PIE: New page: PIE session: project (Dec 11, 2019, 8:33:32 AM)
+[2019.12.11-20.33.32:030][840]LogPlayLevel: Creating play world package: /Game/level/UEDPIE_0_project
+[2019.12.11-20.33.32:077][840]LogPlayLevel: PIE: StaticDuplicateObject took: (0.047322s)
+[2019.12.11-20.33.32:078][840]LogAIModule: Creating AISystem for world project
+[2019.12.11-20.33.32:078][840]LogPlayLevel: PIE: World Init took: (0.000724s)
+[2019.12.11-20.33.32:078][840]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/level/project.project to /Game/level/UEDPIE_0_project.project (0.048280s)
+[2019.12.11-20.33.32:106][840]LogUObjectHash: Compacting FUObjectHashTables data took   2.99ms
+[2019.12.11-20.33.32:112][840]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.12.11-20.33.32:128][840]LogInit: FAudioDevice initialized.
+[2019.12.11-20.33.32:137][840]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.11-20.33.32:173][840]LogLoad: Game class is 'game_mode_C'
+[2019.12.11-20.33.32:192][840]LogWorld: Bringing World /Game/level/UEDPIE_0_project.project up for play (max tick rate 0) at 2019.12.11-14.33.32
+[2019.12.11-20.33.32:196][840]LogWorld: Bringing up level for play took: 0.022273
+[2019.12.11-20.33.32:213][840]PIE: Play in editor start time for /Game/level/UEDPIE_0_project -0.16
+[2019.12.11-20.33.32:214][840]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/level/project.project:PersistentLevel' has LevelScriptBlueprint '/Game/level/project.project:PersistentLevel.project' with GeneratedClass '/Game/level/project.project_C' with ClassGeneratedBy '/Game/level/project.project:PersistentLevel.project'
+[2019.12.11-20.35.30:726][991]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/level/project.project:PersistentLevel' has LevelScriptBlueprint '/Game/level/project.project:PersistentLevel.project' with GeneratedClass '/Game/level/project.project_C' with ClassGeneratedBy '/Game/level/project.project:PersistentLevel.project'
+[2019.12.11-20.35.30:727][991]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.11-20.35.30:742][991]LogSlate: Window 'Narutaco Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.12.11-20.35.30:853][991]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.12.11-20.35.30:853][991]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/level/project.project:PersistentLevel' has LevelScriptBlueprint '/Game/level/project.project:PersistentLevel.project' with GeneratedClass '/Game/level/project.project_C' with ClassGeneratedBy '/Game/level/project.project:PersistentLevel.project'
+[2019.12.11-20.35.30:907][991]LogUObjectHash: Compacting FUObjectHashTables data took   3.23ms
+[2019.12.11-20.35.30:928][992]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2019.12.11-20.36.30:098][841]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Tile1_Sprite796)
+[2019.12.11-20.36.34:655][356]LogEditorViewport: Clicking Background
+[2019.12.11-20.36.38:531][781]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Tile1_Sprite661)
+[2019.12.11-20.36.44:374][411]LogEditorViewport: Clicking Background
+[2019.12.11-20.36.45:358][526]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Tile1_Sprite661)
+[2019.12.11-20.36.51:125][ 95]LogEditorViewport: Clicking Background
+[2019.12.11-20.36.51:364][120]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.11-20.36.52:317][233]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Tile1_Sprite669)
+[2019.12.11-20.36.57:735][826]LogEditorViewport: Clicking Background
+[2019.12.11-20.36.58:879][960]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.11-20.36.59:542][ 38]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Tile1_Sprite669)
+[2019.12.11-20.37.04:128][527]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Tile1_Sprite669)
+[2019.12.11-20.38.14:526][424]LogEditorViewport: Clicking Background
+[2019.12.11-20.38.21:922][259]LogEditorViewport: Clicking Background
+[2019.12.11-20.38.22:788][361]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Tile1_Sprite858)
+[2019.12.11-20.38.23:672][462]LogEditorViewport: Clicking Background
+[2019.12.11-20.38.26:664][809]LogEditorViewport: Clicking Background
+[2019.12.11-20.38.33:109][517]LogEditorViewport: Clicking Background
+[2019.12.11-20.38.41:570][373]LogEditorViewport: Clicking Background
+[2019.12.11-20.38.58:467][241]LogEditorViewport: Clicking Background
+[2019.12.11-20.39.09:446][473]LogEditorViewport: Clicking Background
+[2019.12.11-20.39.10:237][565]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Tile1_Sprite920)
+[2019.12.11-20.39.13:646][935]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Tile1_Sprite921)
+[2019.12.11-20.39.15:417][122]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Tile1_Sprite922)
+[2019.12.11-20.39.16:931][280]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Tile1_Sprite923)
+[2019.12.11-20.39.18:610][455]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Tile1_Sprite924)
+[2019.12.11-20.39.20:683][674]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Tile1_Sprite925)
+[2019.12.11-20.39.22:574][870]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Tile1_Sprite926)
+[2019.12.11-20.39.24:298][ 53]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Tile1_Sprite927)
+[2019.12.11-20.39.28:111][446]LogEditorViewport: Clicking on Actor (context menu): PaperSpriteActor (Tile1_Sprite925)
+[2019.12.11-20.39.28:140][446]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.12.11-20.39.30:084][662]Cmd: DELETE
+[2019.12.11-20.39.30:084][662]Cmd: ACTOR DELETE
+[2019.12.11-20.39.30:102][662]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2019.12.11-20.39.30:103][662]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2019.12.11-20.39.30:103][662]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2019.12.11-20.39.30:103][662]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2019.12.11-20.39.30:104][662]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2019.12.11-20.39.30:104][662]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2019.12.11-20.39.30:104][662]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2019.12.11-20.39.30:105][662]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2019.12.11-20.39.30:139][662]LogUObjectHash: Compacting FUObjectHashTables data took   1.93ms
+[2019.12.11-20.39.30:140][662]LogEditorActor: Deleted 8 Actors (0.055 secs)
+[2019.12.11-20.40.02:406][887]LogEditorViewport: Clicking Background
+[2019.12.11-20.40.08:691][446]LogEditorViewport: Clicking Background
+[2019.12.11-20.40.21:964][814]LogEditorViewport: Clicking Background
+[2019.12.11-20.40.50:922][596]LogEditorViewport: Clicking on Actor (context menu): PaperSpriteActor (Tile1_Sprite933)
+[2019.12.11-20.40.50:954][596]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.12.11-20.40.53:019][826]Cmd: DELETE
+[2019.12.11-20.40.53:019][826]Cmd: ACTOR DELETE
+[2019.12.11-20.40.53:038][826]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2019.12.11-20.40.53:038][826]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2019.12.11-20.40.53:039][826]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2019.12.11-20.40.53:039][826]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2019.12.11-20.40.53:039][826]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2019.12.11-20.40.53:040][826]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2019.12.11-20.40.53:040][826]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2019.12.11-20.40.53:041][826]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2019.12.11-20.40.53:041][826]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2019.12.11-20.40.53:041][826]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2019.12.11-20.40.53:042][826]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2019.12.11-20.40.53:042][826]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2019.12.11-20.40.53:042][826]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2019.12.11-20.40.53:043][826]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2019.12.11-20.40.53:043][826]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2019.12.11-20.40.53:043][826]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2019.12.11-20.40.53:072][826]LogUObjectHash: Compacting FUObjectHashTables data took   2.07ms
+[2019.12.11-20.40.53:072][826]LogEditorActor: Deleted 16 Actors (0.053 secs)
+[2019.12.11-20.40.58:481][398]LogEditorViewport: Clicking Background
+[2019.12.11-20.41.07:032][306]LogEditorViewport: Clicking Background
+[2019.12.11-20.41.14:543][115]LogEditorViewport: Clicking Background
+[2019.12.11-20.41.21:803][866]LogEditorViewport: Clicking Background
+[2019.12.11-20.41.28:131][511]LogEditorViewport: Clicking Background
+[2019.12.11-20.41.31:270][835]LogEditorViewport: Clicking Background
+[2019.12.11-20.42.31:756][  0]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.11-20.42.49:112][ 67]LogAssetEditorManager: Opening Asset editor for PaperSprite /Game/sprites/Narutaco_death_Sprite_0.Narutaco_death_Sprite_0
+[2019.12.11-20.42.49:390][ 67]LogRenderer: Reallocating scene render targets to support 1524x880 Format 10 NumSamples 1 (Frame:1).
+[2019.12.11-20.42.54:817][540]LogSlate: Window 'Narutaco_death_Sprite_0' being destroyed
+[2019.12.11-20.42.54:826][540]LogSlate: Window 'Narutaco_death_Sprite_0' being destroyed
+[2019.12.11-20.42.57:725][880]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.11-20.43.04:466][684]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/level/project" FILE="../../../../../../Users/Enrique/Documents/GitHub/Narutaco/Narutaco/Content/level/project.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.12.11-20.43.04:504][684]LogUObjectHash: Compacting FUObjectHashTables data took   2.81ms
+[2019.12.11-20.43.05:466][684]LogSavePackage: Moving '../../../../../../Users/Enrique/Documents/GitHub/Narutaco/Narutaco/Saved/projectD0C1631F405988A1220E569F4FDA4A99.tmp' to '../../../../../../Users/Enrique/Documents/GitHub/Narutaco/Narutaco/Content/level/project.umap'
+[2019.12.11-20.43.05:496][684]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/level/project_BuiltData" FILE="../../../../../../Users/Enrique/Documents/GitHub/Narutaco/Narutaco/Content/level/project_BuiltData.uasset" SILENT=true
+[2019.12.11-20.43.05:505][684]LogSavePackage: Moving '../../../../../../Users/Enrique/Documents/GitHub/Narutaco/Narutaco/Saved/project_BuiltData796FE53A404F18231785F6AEBBB9456E.tmp' to '../../../../../../Users/Enrique/Documents/GitHub/Narutaco/Narutaco/Content/level/project_BuiltData.uasset'
+[2019.12.11-20.43.06:388][773]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.11-20.43.09:411][121]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Light_Punch_Sound_1...
+[2019.12.11-20.43.09:734][121]LogTexture: Display: Building textures: Taco_button (AutoDXT, 2100X1500)
+[2019.12.11-20.43.09:734][121]LogTexture: Display: Building textures: Taco_button_2 (AutoDXT, 2100X1500)
+[2019.12.11-20.43.09:734][121]LogTexture: Display: Building textures: Narutaco_Menu (AutoDXT, 2100X1500)
+[2019.12.11-20.43.09:734][121]LogTexture: Display: Building textures: selection (BGRA8, 1920X1371)
+[2019.12.11-20.43.09:734][121]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 51052 while cooking SoundWave /Game/sounds/Light_Punch_Sound_1.Light_Punch_Sound_1.
+[2019.12.11-20.43.09:780][121]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/level/Menu/menu.menu
+[2019.12.11-20.43.10:274][121]LogBlueprintActionDatabase: Requesting refresh due to module change: SequencerWidgets (loaded)
+[2019.12.11-20.43.22:860][241]LogSlate: Window 'menu' being destroyed
+[2019.12.11-20.43.22:864][241]LogSlate: Window 'menu' being destroyed
+[2019.12.11-20.43.26:367][622]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.11-20.43.26:543][642]LogAssetEditorManager: Opening Asset editor for Texture2D /Game/level/Menu/Narutaco_Menu.Narutaco_Menu
+[2019.12.11-20.43.35:036][601]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.11-20.43.35:138][613]LogSlate: Window 'Narutaco_Menu' being destroyed
+[2019.12.11-20.43.35:142][613]LogSlate: Window 'Narutaco_Menu' being destroyed
+[2019.12.11-20.43.36:670][783]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.11-20.43.36:836][802]LogAssetEditorManager: Opening Asset editor for Texture2D /Game/level/Menu/selection.selection
+[2019.12.11-20.43.40:826][229]LogSlate: Window 'selection' being destroyed
+[2019.12.11-20.43.40:831][229]LogSlate: Window 'selection' being destroyed
+[2019.12.11-20.43.42:643][435]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.11-20.43.42:816][455]LogAssetEditorManager: Opening Asset editor for PaperSprite /Game/level/Menu/selection_Sprite_0.selection_Sprite_0
+[2019.12.11-20.43.44:221][576]LogSlate: Window 'selection_Sprite_0' being destroyed
+[2019.12.11-20.43.44:227][576]LogSlate: Window 'selection_Sprite_0' being destroyed
+[2019.12.11-20.43.46:104][794]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.11-20.43.46:271][813]LogAssetEditorManager: Opening Asset editor for Texture2D /Game/level/Menu/Taco_button_2.Taco_button_2
+[2019.12.11-20.43.51:022][333]LogSlate: Window 'Taco_button_2' being destroyed
+[2019.12.11-20.43.51:026][333]LogSlate: Window 'Taco_button_2' being destroyed
+[2019.12.11-20.44.01:844][225]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Cactus_Tile__no_background__Sprite7)
+[2019.12.11-20.44.06:630][618]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Cactus_Tile__no_background__Sprite7)
+[2019.12.11-20.44.15:277][400]LogEditorViewport: Clicking Background
+[2019.12.11-20.44.25:498][519]LogEditorViewport: Clicking Background
+[2019.12.11-20.44.38:316][744]LogEditorViewport: Clicking Background
+[2019.12.11-20.44.44:461][293]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Cactus_Tile__no_background__Sprite7)
+[2019.12.11-20.44.46:553][437]LogEditorViewport: Clicking Background
+[2019.12.11-20.44.49:125][666]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.11-20.44.49:191][674]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.12.11-20.44.49:203][674]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/level/project.project:PersistentLevel' has LevelScriptBlueprint '/Game/level/project.project:PersistentLevel.project' with GeneratedClass '/Game/level/project.project_C' with ClassGeneratedBy '/Game/level/project.project:PersistentLevel.project'
+[2019.12.11-20.44.49:203][674]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.12.11-20.44.49:203][674]PIE: New page: PIE session: project (Dec 11, 2019, 8:44:49 AM)
+[2019.12.11-20.44.49:203][674]LogPlayLevel: Creating play world package: /Game/level/UEDPIE_0_project
+[2019.12.11-20.44.49:255][674]LogPlayLevel: PIE: StaticDuplicateObject took: (0.051678s)
+[2019.12.11-20.44.49:255][674]LogAIModule: Creating AISystem for world project
+[2019.12.11-20.44.49:255][674]LogPlayLevel: PIE: World Init took: (0.000642s)
+[2019.12.11-20.44.49:256][674]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/level/project.project to /Game/level/UEDPIE_0_project.project (0.052590s)
+[2019.12.11-20.44.49:356][674]LogUObjectHash: Compacting FUObjectHashTables data took   6.61ms
+[2019.12.11-20.44.49:361][674]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.12.11-20.44.49:378][674]LogInit: FAudioDevice initialized.
+[2019.12.11-20.44.49:387][674]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.11-20.44.49:418][674]LogLoad: Game class is 'game_mode_C'
+[2019.12.11-20.44.49:438][674]LogWorld: Bringing World /Game/level/UEDPIE_0_project.project up for play (max tick rate 0) at 2019.12.11-14.44.49
+[2019.12.11-20.44.49:443][674]LogWorld: Bringing up level for play took: 0.024499
+[2019.12.11-20.44.49:460][674]PIE: Play in editor start time for /Game/level/UEDPIE_0_project 1.086
+[2019.12.11-20.44.49:460][674]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/level/project.project:PersistentLevel' has LevelScriptBlueprint '/Game/level/project.project:PersistentLevel.project' with GeneratedClass '/Game/level/project.project_C' with ClassGeneratedBy '/Game/level/project.project:PersistentLevel.project'
+[2019.12.11-20.45.39:690][565]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/level/project.project:PersistentLevel' has LevelScriptBlueprint '/Game/level/project.project:PersistentLevel.project' with GeneratedClass '/Game/level/project.project_C' with ClassGeneratedBy '/Game/level/project.project:PersistentLevel.project'
+[2019.12.11-20.45.39:690][565]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.11-20.45.39:704][565]LogSlate: Window 'Narutaco Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.12.11-20.45.39:769][565]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.12.11-20.45.39:769][565]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/level/project.project:PersistentLevel' has LevelScriptBlueprint '/Game/level/project.project:PersistentLevel.project' with GeneratedClass '/Game/level/project.project_C' with ClassGeneratedBy '/Game/level/project.project:PersistentLevel.project'
+[2019.12.11-20.45.39:832][565]LogUObjectHash: Compacting FUObjectHashTables data took   5.19ms
+[2019.12.11-20.45.39:852][566]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2019.12.11-20.45.45:297][195]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.11-20.45.45:479][216]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/level/Menu/menu.menu
+[2019.12.11-20.45.47:804][378]LogSlate: Window 'menu' being destroyed
+[2019.12.11-20.45.47:809][378]LogSlate: Window 'menu' being destroyed
+[2019.12.11-20.45.49:784][603]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.11-20.45.49:971][624]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/level/Menu/Options.Options
+[2019.12.11-20.45.52:320][790]LogSlate: Window 'Options' being destroyed
+[2019.12.11-20.45.52:325][790]LogSlate: Window 'Options' being destroyed
+[2019.12.11-20.45.53:819][953]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.11-20.45.54:017][974]LogAIModule: Creating AISystem for world main_menu
+[2019.12.11-20.45.54:021][974]LogAssetEditorManager: Opening Asset editor for World /Game/level/Menu/main_menu.main_menu
+[2019.12.11-20.45.54:071][974]LogUObjectHash: Compacting FUObjectHashTables data took   4.11ms
+[2019.12.11-20.45.55:753][974]LogSlate: Window 'Save Content' being destroyed
+[2019.12.11-20.45.57:678][185]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.11-20.45.57:774][194]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/level/project" FILE="../../../../../../Users/Enrique/Documents/GitHub/Narutaco/Narutaco/Content/level/project.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.12.11-20.45.57:815][194]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2019.12.11-20.45.59:092][194]LogSavePackage: Moving '../../../../../../Users/Enrique/Documents/GitHub/Narutaco/Narutaco/Saved/project0FF5839342372A158EEF52ABAE024E94.tmp' to '../../../../../../Users/Enrique/Documents/GitHub/Narutaco/Narutaco/Content/level/project.umap'
+[2019.12.11-20.45.59:129][194]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/level/project_BuiltData" FILE="../../../../../../Users/Enrique/Documents/GitHub/Narutaco/Narutaco/Content/level/project_BuiltData.uasset" SILENT=true
+[2019.12.11-20.45.59:141][194]LogSavePackage: Moving '../../../../../../Users/Enrique/Documents/GitHub/Narutaco/Narutaco/Saved/project_BuiltData83C87A4646A18EBCFAA7689BCC331D7A.tmp' to '../../../../../../Users/Enrique/Documents/GitHub/Narutaco/Narutaco/Content/level/project_BuiltData.uasset'
+[2019.12.11-20.46.03:847][737]LogAssetEditorManager: Opening Asset editor for PaperFlipbook /Game/Flip_book/Death.Death
+[2019.12.11-20.46.58:927][250]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Flip_book/Death" FILE="../../../../../../Users/Enrique/Documents/GitHub/Narutaco/Narutaco/Content/Flip_book/Death.uasset" SILENT=true
+[2019.12.11-20.46.58:952][250]LogSavePackage: Moving '../../../../../../Users/Enrique/Documents/GitHub/Narutaco/Narutaco/Saved/Death693559774405C8CE612B659C74AD8109.tmp' to '../../../../../../Users/Enrique/Documents/GitHub/Narutaco/Narutaco/Content/Flip_book/Death.uasset'
+[2019.12.11-20.46.59:821][334]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.11-20.46.59:921][345]LogSlate: Window 'Death' being destroyed
+[2019.12.11-20.46.59:929][345]LogSlate: Window 'Death' being destroyed
+[2019.12.11-20.47.02:107][586]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.11-20.47.24:195][207]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/Widgets/HUD.HUD
+[2019.12.11-20.47.28:400][590]LogSlate: Window 'HUD' being destroyed
+[2019.12.11-20.47.28:405][590]LogSlate: Window 'HUD' being destroyed
+[2019.12.11-20.47.42:377][253]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.11-20.47.42:468][262]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/level/project" FILE="../../../../../../Users/Enrique/Documents/GitHub/Narutaco/Narutaco/Content/level/project.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.12.11-20.47.42:510][262]LogUObjectHash: Compacting FUObjectHashTables data took   3.61ms
+[2019.12.11-20.47.43:475][262]LogSavePackage: Moving '../../../../../../Users/Enrique/Documents/GitHub/Narutaco/Narutaco/Saved/project4825B96D4A5716C7A9B9E28E716F8D16.tmp' to '../../../../../../Users/Enrique/Documents/GitHub/Narutaco/Narutaco/Content/level/project.umap'
+[2019.12.11-20.47.43:501][262]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/level/project_BuiltData" FILE="../../../../../../Users/Enrique/Documents/GitHub/Narutaco/Narutaco/Content/level/project_BuiltData.uasset" SILENT=true
+[2019.12.11-20.47.43:510][262]LogSavePackage: Moving '../../../../../../Users/Enrique/Documents/GitHub/Narutaco/Narutaco/Saved/project_BuiltData4D244ED44FFC256FABE1ED9CB1BC92B9.tmp' to '../../../../../../Users/Enrique/Documents/GitHub/Narutaco/Narutaco/Content/level/project_BuiltData.uasset'
