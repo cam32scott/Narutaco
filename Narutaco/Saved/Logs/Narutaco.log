@@ -1,4 +1,4 @@
-﻿Log file open, 12/11/19 13:32:54
+﻿Log file open, 12/11/19 14:13:50
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -9,8 +9,8 @@ LogConsoleResponse: Display: Failed to find resolution value strings in scalabil
 LogInit: Display: Running engine for game: Narutaco
 LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
 LogPlatformFile: Not using cached read wrapper
-LogTaskGraph: Started task graph with 5 named threads and 47 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.547623
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.274855
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -6:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -116,18 +116,17 @@ LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connecti
 LogInit:  - LocalHostAddr = Default
 LogInit:  - BufferSize = 65536
 LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-LogHMD: Failed initializing OVRPlugin 1.32.0
 LogInit: Build: ++UE4+Release-4.22-CL-7053642
 LogInit: Engine Version: 4.22.3-7053642+++UE4+Release-4.22
 LogInit: Compatible Engine Version: 4.22.0-5660361+++UE4+Release-4.22
 LogInit: Net CL: 5660361
-LogInit: OS: Windows 10 (Release 1909) (), CPU: AMD Ryzen 7 2700X Eight-Core Processor         , GPU: NVIDIA GeForce RTX 2060
+LogInit: OS: Windows 10 (Release 1903) (), CPU: Intel(R) Core(TM) i7-4700HQ CPU @ 2.40GHz, GPU: Intel(R) HD Graphics 4600
 LogInit: Compiled (64-bit): Jun 18 2019 03:09:11
 LogInit: Compiled with Visual C++: 19.16.27025.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.22
 LogInit: Command Line: 
-LogInit: Base Directory: G:/UE_4.22/Engine/Binaries/Win64/
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogDevObjectVersion: Number of dev versions registered: 23
 LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
@@ -157,659 +156,873 @@ LogInit: Presizing for max 16777216 objects, including 0 objects not considered 
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2019.12.11-19.32.55:191][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2019.12.11-19.32.55:191][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2019.12.11-19.32.55:191][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/akcen/OneDrive/Desktop/Narutaco/Narutaco/Saved/Config/Windows/Engine.ini]
-[2019.12.11-19.32.55:191][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2019.12.11-19.32.55:191][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/akcen/OneDrive/Desktop/Narutaco/Narutaco/Saved/Config/Windows/Engine.ini]
-[2019.12.11-19.32.55:192][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/akcen/OneDrive/Desktop/Narutaco/Narutaco/Saved/Config/Windows/Engine.ini]
-[2019.12.11-19.32.55:192][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2019.12.11-19.32.55:192][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2019.12.11-19.32.55:192][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2019.12.11-19.32.55:192][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2019.12.11-19.32.55:192][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2019.12.11-19.32.55:192][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2019.12.11-19.32.55:192][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2019.12.11-19.32.55:192][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2019.12.11-19.32.55:192][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2019.12.11-19.32.55:192][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2019.12.11-19.32.55:192][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2019.12.11-19.32.55:192][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2019.12.11-19.32.55:192][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2019.12.11-19.32.55:192][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/akcen/OneDrive/Desktop/Narutaco/Narutaco/Saved/Config/Windows/Engine.ini]
-[2019.12.11-19.32.55:192][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2019.12.11-19.32.55:192][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2019.12.11-19.32.55:192][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2019.12.11-19.32.55:192][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2019.12.11-19.32.55:192][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2019.12.11-19.32.55:192][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2019.12.11-19.32.55:192][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
-[2019.12.11-19.32.55:192][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2019.12.11-19.32.55:192][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2019.12.11-19.32.55:192][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2019.12.11-19.32.55:192][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2019.12.11-19.32.55:192][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2019.12.11-19.32.55:192][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2019.12.11-19.32.55:192][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/akcen/OneDrive/Desktop/Narutaco/Narutaco/Saved/Config/Windows/Engine.ini]
-[2019.12.11-19.32.55:192][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/akcen/OneDrive/Desktop/Narutaco/Narutaco/Saved/Config/Windows/Engine.ini]
-[2019.12.11-19.32.55:196][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/akcen/OneDrive/Desktop/Narutaco/Narutaco/Saved/Config/Windows/Scalability.ini]
-[2019.12.11-19.32.55:196][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2019.12.11-19.32.55:196][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2019.12.11-19.32.55:197][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/akcen/OneDrive/Desktop/Narutaco/Narutaco/Saved/Config/Windows/Scalability.ini]
-[2019.12.11-19.32.55:197][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2019.12.11-19.32.55:197][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/akcen/OneDrive/Desktop/Narutaco/Narutaco/Saved/Config/Windows/Scalability.ini]
-[2019.12.11-19.32.55:197][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2019.12.11-19.32.55:197][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2019.12.11-19.32.55:197][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2019.12.11-19.32.55:197][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2019.12.11-19.32.55:197][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2019.12.11-19.32.55:197][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2019.12.11-19.32.55:197][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2019.12.11-19.32.55:197][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2019.12.11-19.32.55:197][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2019.12.11-19.32.55:197][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2019.12.11-19.32.55:197][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2019.12.11-19.32.55:197][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2019.12.11-19.32.55:197][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2019.12.11-19.32.55:197][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2019.12.11-19.32.55:197][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2019.12.11-19.32.55:197][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2019.12.11-19.32.55:197][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2019.12.11-19.32.55:197][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2019.12.11-19.32.55:197][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/akcen/OneDrive/Desktop/Narutaco/Narutaco/Saved/Config/Windows/Scalability.ini]
-[2019.12.11-19.32.55:197][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2019.12.11-19.32.55:197][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2019.12.11-19.32.55:197][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2019.12.11-19.32.55:197][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2019.12.11-19.32.55:197][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2019.12.11-19.32.55:197][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2019.12.11-19.32.55:197][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2019.12.11-19.32.55:197][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2019.12.11-19.32.55:197][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2019.12.11-19.32.55:197][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2019.12.11-19.32.55:197][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2019.12.11-19.32.55:197][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2019.12.11-19.32.55:197][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2019.12.11-19.32.55:197][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2019.12.11-19.32.55:197][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2019.12.11-19.32.55:197][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2019.12.11-19.32.55:197][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2019.12.11-19.32.55:197][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2019.12.11-19.32.55:197][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2019.12.11-19.32.55:197][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2019.12.11-19.32.55:197][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2019.12.11-19.32.55:197][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2019.12.11-19.32.55:197][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2019.12.11-19.32.55:197][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2019.12.11-19.32.55:197][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2019.12.11-19.32.55:197][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2019.12.11-19.32.55:197][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2019.12.11-19.32.55:197][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2019.12.11-19.32.55:197][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2019.12.11-19.32.55:197][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2019.12.11-19.32.55:197][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/akcen/OneDrive/Desktop/Narutaco/Narutaco/Saved/Config/Windows/Scalability.ini]
-[2019.12.11-19.32.55:197][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2019.12.11-19.32.55:197][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2019.12.11-19.32.55:197][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2019.12.11-19.32.55:197][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2019.12.11-19.32.55:197][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2019.12.11-19.32.55:197][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2019.12.11-19.32.55:197][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2019.12.11-19.32.55:197][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2019.12.11-19.32.55:197][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/akcen/OneDrive/Desktop/Narutaco/Narutaco/Saved/Config/Windows/Scalability.ini]
-[2019.12.11-19.32.55:197][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2019.12.11-19.32.55:197][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2019.12.11-19.32.55:197][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2019.12.11-19.32.55:197][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2019.12.11-19.32.55:197][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2019.12.11-19.32.55:197][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2019.12.11-19.32.55:197][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2019.12.11-19.32.55:197][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2019.12.11-19.32.55:197][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2019.12.11-19.32.55:197][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2019.12.11-19.32.55:197][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2019.12.11-19.32.55:197][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2019.12.11-19.32.55:198][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2019.12.11-19.32.55:198][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/akcen/OneDrive/Desktop/Narutaco/Narutaco/Saved/Config/Windows/Scalability.ini]
-[2019.12.11-19.32.55:198][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2019.12.11-19.32.55:198][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2019.12.11-19.32.55:198][  0]LogInit: Selected Device Profile: [Windows]
-[2019.12.11-19.32.55:198][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2019.12.11-19.32.55:212][  0]LogHAL: Display: Platform has ~ 32 GB [34270826496 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2019.12.11-19.32.55:212][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:0		; Required until we fix HLR fall-out]]
-[2019.12.11-19.32.55:212][  0]LogInit: Going up to parent DeviceProfile []
-[2019.12.11-19.32.55:212][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/akcen/OneDrive/Desktop/Narutaco/Narutaco/Saved/Config/Windows/Scalability.ini]
-[2019.12.11-19.32.55:212][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2019.12.11-19.32.55:212][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2019.12.11-19.32.55:212][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/akcen/OneDrive/Desktop/Narutaco/Narutaco/Saved/Config/Windows/Scalability.ini]
-[2019.12.11-19.32.55:212][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2019.12.11-19.32.55:212][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/akcen/OneDrive/Desktop/Narutaco/Narutaco/Saved/Config/Windows/Scalability.ini]
-[2019.12.11-19.32.55:212][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2019.12.11-19.32.55:212][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2019.12.11-19.32.55:212][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2019.12.11-19.32.55:212][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2019.12.11-19.32.55:212][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2019.12.11-19.32.55:212][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2019.12.11-19.32.55:212][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2019.12.11-19.32.55:212][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2019.12.11-19.32.55:212][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2019.12.11-19.32.55:212][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2019.12.11-19.32.55:212][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2019.12.11-19.32.55:212][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2019.12.11-19.32.55:213][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2019.12.11-19.32.55:213][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2019.12.11-19.32.55:213][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2019.12.11-19.32.55:213][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2019.12.11-19.32.55:213][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2019.12.11-19.32.55:213][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2019.12.11-19.32.55:213][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/akcen/OneDrive/Desktop/Narutaco/Narutaco/Saved/Config/Windows/Scalability.ini]
-[2019.12.11-19.32.55:213][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2019.12.11-19.32.55:213][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2019.12.11-19.32.55:213][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2019.12.11-19.32.55:213][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2019.12.11-19.32.55:213][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2019.12.11-19.32.55:213][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2019.12.11-19.32.55:213][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2019.12.11-19.32.55:213][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2019.12.11-19.32.55:213][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2019.12.11-19.32.55:213][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2019.12.11-19.32.55:213][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2019.12.11-19.32.55:213][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2019.12.11-19.32.55:213][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2019.12.11-19.32.55:213][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2019.12.11-19.32.55:213][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2019.12.11-19.32.55:213][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2019.12.11-19.32.55:213][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2019.12.11-19.32.55:213][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2019.12.11-19.32.55:213][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2019.12.11-19.32.55:213][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2019.12.11-19.32.55:213][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2019.12.11-19.32.55:213][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2019.12.11-19.32.55:213][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2019.12.11-19.32.55:213][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2019.12.11-19.32.55:213][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2019.12.11-19.32.55:213][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2019.12.11-19.32.55:213][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2019.12.11-19.32.55:213][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2019.12.11-19.32.55:213][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2019.12.11-19.32.55:213][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2019.12.11-19.32.55:213][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/akcen/OneDrive/Desktop/Narutaco/Narutaco/Saved/Config/Windows/Scalability.ini]
-[2019.12.11-19.32.55:213][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2019.12.11-19.32.55:213][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2019.12.11-19.32.55:213][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2019.12.11-19.32.55:213][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2019.12.11-19.32.55:213][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2019.12.11-19.32.55:213][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2019.12.11-19.32.55:213][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2019.12.11-19.32.55:213][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2019.12.11-19.32.55:213][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/akcen/OneDrive/Desktop/Narutaco/Narutaco/Saved/Config/Windows/Scalability.ini]
-[2019.12.11-19.32.55:213][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2019.12.11-19.32.55:213][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2019.12.11-19.32.55:213][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2019.12.11-19.32.55:213][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2019.12.11-19.32.55:213][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2019.12.11-19.32.55:213][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2019.12.11-19.32.55:213][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2019.12.11-19.32.55:213][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2019.12.11-19.32.55:213][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2019.12.11-19.32.55:213][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2019.12.11-19.32.55:213][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2019.12.11-19.32.55:213][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2019.12.11-19.32.55:213][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2019.12.11-19.32.55:213][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/akcen/OneDrive/Desktop/Narutaco/Narutaco/Saved/Config/Windows/Scalability.ini]
-[2019.12.11-19.32.55:213][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2019.12.11-19.32.55:213][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2019.12.11-19.32.55:213][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2019.12.11-19.32.55:214][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2019.12.11-19.32.55:214][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
-[2019.12.11-19.32.55:214][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/akcen/OneDrive/Desktop/Narutaco/Narutaco/Saved/Config/Windows/Engine.ini]
-[2019.12.11-19.32.55:214][  0]LogInit: Computer: DESKTOP-GDQS4DG
-[2019.12.11-19.32.55:214][  0]LogInit: User: akcen
-[2019.12.11-19.32.55:214][  0]LogInit: CPU Page size=4096, Cores=8
-[2019.12.11-19.32.55:214][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2019.12.11-19.32.55:214][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
-[2019.12.11-19.32.55:214][  0]LogMemory: Platform Memory Stats for Windows
-[2019.12.11-19.32.55:214][  0]LogMemory: Process Physical Memory: 102.70 MB used, 102.70 MB peak
-[2019.12.11-19.32.55:214][  0]LogMemory: Process Virtual Memory: 98.14 MB used, 98.14 MB peak
-[2019.12.11-19.32.55:214][  0]LogMemory: Physical Memory: 5928.09 MB used,  26755.11 MB free, 32683.21 MB total
-[2019.12.11-19.32.55:214][  0]LogMemory: Virtual Memory: 4700.01 MB used,  134213024.00 MB free, 134217728.00 MB total
-[2019.12.11-19.32.55:247][  0]LogInit: Using OS detected language (en-US).
-[2019.12.11-19.32.55:247][  0]LogInit: Using OS detected locale (en-US).
-[2019.12.11-19.32.55:248][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2019.12.11-19.32.55:394][  0]LogInit: Setting process to per monitor DPI aware
-[2019.12.11-19.32.55:439][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2019.12.11-19.32.55:439][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2019.12.11-19.32.55:734][  0]LogHMD: Failed to initialize OpenVR with code 126
-[2019.12.11-19.32.55:734][  0]LogD3D11RHI: D3D11 adapters:
-[2019.12.11-19.32.55:820][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 2060' (Feature Level 11_0)
-[2019.12.11-19.32.55:820][  0]LogD3D11RHI:       5980/0/16341 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2019.12.11-19.32.55:822][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2019.12.11-19.32.55:822][  0]LogD3D11RHI:       0/0/16341 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2019.12.11-19.32.55:822][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2019.12.11-19.32.55:832][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2019.12.11-19.32.55:832][  0]LogD3D11RHI:     GPU DeviceId: 0x1f08 (for the marketing name, search the web for "GPU Device Id")
-[2019.12.11-19.32.55:832][  0]LogWindows: EnumDisplayDevices:
-[2019.12.11-19.32.55:832][  0]LogWindows:    0. 'NVIDIA GeForce RTX 2060' (P:1 D:1)
-[2019.12.11-19.32.55:832][  0]LogWindows:    1. 'NVIDIA GeForce RTX 2060' (P:0 D:1)
-[2019.12.11-19.32.55:833][  0]LogWindows:    2. 'NVIDIA GeForce RTX 2060' (P:0 D:0)
-[2019.12.11-19.32.55:833][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2060' (P:0 D:0)
-[2019.12.11-19.32.55:833][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2019.12.11-19.32.55:833][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 2060
-[2019.12.11-19.32.55:833][  0]LogD3D11RHI:   Driver Version: 441.41 (internal:26.21.14.4141, unified:441.41)
-[2019.12.11-19.32.55:833][  0]LogD3D11RHI:      Driver Date: 11-20-2019
-[2019.12.11-19.32.55:833][  0]LogRHI: Texture pool is 4186 MB (70% of 5980 MB)
-[2019.12.11-19.32.55:888][  0]LogD3D11RHI: Async texture creation enabled
-[2019.12.11-19.32.55:900][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
-[2019.12.11-19.32.55:901][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
-[2019.12.11-19.32.55:901][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
-[2019.12.11-19.32.55:908][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2019.12.11-19.32.56:194][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
-[2019.12.11-19.32.56:210][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
-[2019.12.11-19.32.56:226][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
-[2019.12.11-19.32.56:242][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
-[2019.12.11-19.32.56:258][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
-[2019.12.11-19.32.56:274][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
-[2019.12.11-19.32.56:290][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
-[2019.12.11-19.32.56:306][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
-[2019.12.11-19.32.56:314][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
-[2019.12.11-19.32.56:408][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
-[2019.12.11-19.32.56:408][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
-[2019.12.11-19.32.56:408][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
-[2019.12.11-19.32.56:408][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
-[2019.12.11-19.32.56:408][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
-[2019.12.11-19.32.56:408][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
-[2019.12.11-19.32.56:408][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
-[2019.12.11-19.32.56:408][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
-[2019.12.11-19.32.56:408][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
-[2019.12.11-19.32.56:408][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
-[2019.12.11-19.32.56:408][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
-[2019.12.11-19.32.56:408][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
-[2019.12.11-19.32.56:408][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
-[2019.12.11-19.32.56:408][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
-[2019.12.11-19.32.56:408][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
-[2019.12.11-19.32.56:408][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
-[2019.12.11-19.32.56:408][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
-[2019.12.11-19.32.56:408][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
-[2019.12.11-19.32.56:410][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
-[2019.12.11-19.32.56:463][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
-[2019.12.11-19.32.56:463][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
-[2019.12.11-19.32.56:491][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
-[2019.12.11-19.32.56:491][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
-[2019.12.11-19.32.56:505][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
-[2019.12.11-19.32.56:519][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
-[2019.12.11-19.32.56:534][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
-[2019.12.11-19.32.56:548][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
-[2019.12.11-19.32.56:598][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
-[2019.12.11-19.32.56:599][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
-[2019.12.11-19.32.56:599][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2019.12.11-19.32.56:608][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
-[2019.12.11-19.32.56:661][  0]LogShaderCompilers: Guid format shader working directory is 0 characters bigger than the processId version (C:/Users/akcen/OneDrive/Desktop/Narutaco/Narutaco/Intermediate/Shaders/WorkingDirectory/23104/).
-[2019.12.11-19.32.56:661][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/akcen.000/AppData/Local/Temp/UnrealShaderWorkingDir/2D3AAC97412B7EA7F25AB599F02F4893/'.
-[2019.12.11-19.32.56:664][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2019.12.11-19.32.56:664][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2019.12.11-19.32.56:664][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2019.12.11-19.32.57:223][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2019.12.11-19.32.57:264][  0]LogDerivedDataCache: Loaded boot cache 0.04s 71MB C:/Users/akcen.000/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
-[2019.12.11-19.32.57:264][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/akcen.000/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc
-[2019.12.11-19.32.57:264][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/akcen/OneDrive/Desktop/Narutaco/Narutaco/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2019.12.11-19.32.57:264][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2019.12.11-19.32.57:265][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/akcen/OneDrive/Desktop/Narutaco/Narutaco/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.12.11-19.32.57:265][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2019.12.11-19.32.57:277][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2019.12.11-19.32.57:277][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.12.11-19.32.57:277][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2019.12.11-19.32.57:290][  0]LogDerivedDataCache: Using Local data cache path C:/Users/akcen.000/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2019.12.11-19.32.57:290][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2019.12.11-19.32.57:290][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2019.12.11-19.32.57:312][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2019.12.11-19.32.57:313][  0]LogSlate: Using FreeType 2.6.0
-[2019.12.11-19.32.57:314][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2019.12.11-19.32.57:409][  0]LogAssetRegistry: FAssetRegistry took 0.0353 seconds to start up
-[2019.12.11-19.32.57:776][  0]LogInit: Selected Device Profile: [Windows]
-[2019.12.11-19.32.57:908][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2019.12.11-19.32.57:908][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
-[2019.12.11-19.32.57:908][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2019.12.11-19.32.57:908][  0]LogMeshReduction: No distributed automatic mesh merging module available
-[2019.12.11-19.32.57:908][  0]LogMeshMerging: No distributed automatic mesh merging module available
-[2019.12.11-19.32.57:919][  0]LogNetVersion: Narutaco 1.0.0, NetCL: 5660361, EngineNetVer: 10, GameNetVer: 0 (Checksum: 1127581655)
-[2019.12.11-19.32.58:329][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.052941 seconds
-[2019.12.11-19.32.58:338][  0]LogUObjectArray: 42205 objects as part of root set at end of initial load.
-[2019.12.11-19.32.58:338][  0]LogUObjectAllocator: 7325032 out of 0 bytes used by permanent object pool.
-[2019.12.11-19.32.58:338][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2019.12.11-19.32.59:271][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2019.12.11-19.32.59:285][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2019.12.11-19.32.59:393][  0]SourceControl: Source control is disabled
-[2019.12.11-19.32.59:393][  0]SourceControl: Source control is disabled
-[2019.12.11-19.32.59:394][  0]SourceControl: Source control is disabled
-[2019.12.11-19.32.59:395][  0]SourceControl: Source control is disabled
-[2019.12.11-19.32.59:478][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2019.12.11-19.32.59:714][  0]LogOcInput: OculusInput pre-init called
-[2019.12.11-19.33.00:487][  0]LogEngine: Initializing Engine...
-[2019.12.11-19.33.00:520][  0]LogHMD: Failed to initialize OpenVR with code 126
-[2019.12.11-19.33.00:522][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
-[2019.12.11-19.33.00:751][  0]LogInit: Initializing FReadOnlyCVARCache
-[2019.12.11-19.33.00:767][  0]LogAIModule: Creating AISystem for world Untitled
-[2019.12.11-19.33.00:894][  0]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2019.12.11-19.33.00:930][  0]LogInit: FAudioDevice initialized.
-[2019.12.11-19.33.00:930][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2019.12.11-19.33.01:014][  0]LogDerivedDataCache: Saved boot cache 0.08s 71MB C:/Users/akcen.000/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
-[2019.12.11-19.33.01:023][  0]LogInit: Texture streaming: Enabled
-[2019.12.11-19.33.01:043][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2019.12.11-19.33.01:067][  0]LogInit: Transaction tracking system initialized
-[2019.12.11-19.33.01:091][  0]BlueprintLog: New page: Editor Load
-[2019.12.11-19.33.01:182][  0]LocalizationService: Localization service is disabled
-[2019.12.11-19.33.01:474][  0]LogFileCache: Scanning file cache for directory 'C:/Users/akcen/OneDrive/Desktop/Narutaco/Narutaco/Content/' took 0.01s
-[2019.12.11-19.33.01:475][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2019.12.11-19.33.01:475][  0]LogCook: Display: Mobile HDR setting 1
-[2019.12.11-19.33.01:666][  0]SourceControl: Source control is disabled
-[2019.12.11-19.33.01:666][  0]Cmd: MAP LOAD FILE="C:/Users/akcen/OneDrive/Desktop/Narutaco/Narutaco/Content/level/project.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.12.11-19.33.01:666][  0]LightingResults: New page: Lighting Build
-[2019.12.11-19.33.01:669][  0]MapCheck: New page: Map Check
-[2019.12.11-19.33.01:669][  0]LightingResults: New page: Lighting Build
-[2019.12.11-19.33.01:704][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
-[2019.12.11-19.33.01:999][  0]LogAIModule: Creating AISystem for world project
-[2019.12.11-19.33.02:026][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.12.11-19.33.02:064][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.09ms
-[2019.12.11-19.33.02:064][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.12.11-19.33.02:064][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.269ms to complete.
-[2019.12.11-19.33.02:064][  0]LogFileHelpers: Loading map 'project' took 0.399
-[2019.12.11-19.33.02:179][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.12.11-19.33.02:186][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.12.11-19.33.02:194][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.12.11-19.33.02:201][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.12.11-19.33.02:207][  0]LogCollectionManager: Loaded 0 collections in 0.001819 seconds
-[2019.12.11-19.33.02:223][  0]LogFileCache: Scanning file cache for directory 'C:/Users/akcen/OneDrive/Desktop/Narutaco/Narutaco/Saved/Collections/' took 0.01s
-[2019.12.11-19.33.02:223][  0]LogFileCache: Scanning file cache for directory 'C:/Users/akcen/OneDrive/Desktop/Narutaco/Narutaco/Content/Developers/akcen/Collections/' took 0.00s
-[2019.12.11-19.33.02:223][  0]LogFileCache: Scanning file cache for directory 'C:/Users/akcen/OneDrive/Desktop/Narutaco/Narutaco/Content/Collections/' took 0.00s
-[2019.12.11-19.33.02:223][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2019.12.11-19.33.02:232][  0]LogContentBrowser: Native class hierarchy populated in 0.0091 seconds. Added 2732 classes and 659 folders.
-[2019.12.11-19.33.02:238][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2019.12.11-19.33.02:240][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.12.11-19.33.02:241][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.12.11-19.33.02:241][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.12.11-19.33.02:242][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.12.11-19.33.02:243][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.12.11-19.33.02:243][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.12.11-19.33.02:244][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.12.11-19.33.02:244][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.12.11-19.33.02:245][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.12.11-19.33.02:245][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.12.11-19.33.02:246][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.12.11-19.33.02:246][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.12.11-19.33.02:247][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.12.11-19.33.02:248][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.12.11-19.33.02:248][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.12.11-19.33.02:249][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.12.11-19.33.02:249][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.12.11-19.33.02:250][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.12.11-19.33.02:251][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.12.11-19.33.02:251][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.12.11-19.33.02:254][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.12.11-19.33.02:254][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.12.11-19.33.02:255][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.12.11-19.33.02:256][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.12.11-19.33.02:256][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.12.11-19.33.02:257][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.12.11-19.33.02:301][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2019.12.11-19.33.02:306][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
-[2019.12.11-19.33.02:322][  0]LogSlate: Took 0.000220 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2019.12.11-19.33.02:324][  0]LogSlate: Took 0.000212 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2019.12.11-19.33.02:329][  0]LogSlate: Took 0.000292 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2019.12.11-19.33.02:387][  0]LogRenderer: Reallocating scene render targets to support 1616x808 Format 10 NumSamples 1 (Frame:1).
-[2019.12.11-19.33.02:547][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2019.12.11-19.33.02:547][  0]LogLoad: (Engine Initialization) Total time: 10.50 seconds
-[2019.12.11-19.33.02:547][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2019.12.11-19.33.02:578][  0]LogAssetRegistry: Asset discovery search completed in 5.1912 seconds
-[2019.12.11-19.33.02:580][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2019.12.11-19.33.02:580][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000035 seconds (updated 0 objects)
-[2019.12.11-19.33.02:634][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2019.12.11-19.33.12:719][193]LogTemp: IOS device listing is disabled (to many failed attempts)!
-[2019.12.11-19.33.19:960][ 56]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.12.11-19.33.21:267][211]LogSlate: Took 0.000262 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.12.11-19.33.21:274][211]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/blueprints/character.character
-[2019.12.11-19.33.21:530][211]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 121 classes and 0 folders.
-[2019.12.11-19.33.22:352][211]LogSlate: Took 0.000268 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2019.12.11-19.33.22:522][212]LogSlate: Took 0.000276 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2019.12.11-19.33.38:552][572]BlueprintLog: New page: Compile character
-[2019.12.11-19.33.38:788][572]LogUObjectHash: Compacting FUObjectHashTables data took   3.67ms
-[2019.12.11-19.33.39:320][603]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/blueprints/character" FILE="C:/Users/akcen/OneDrive/Desktop/Narutaco/Narutaco/Content/blueprints/character.uasset" SILENT=true
-[2019.12.11-19.33.39:404][603]LogSavePackage: Moving 'C:/Users/akcen/OneDrive/Desktop/Narutaco/Narutaco/Saved/character7AB3D0B34047E1AE471A9D9E1366B913.tmp' to 'C:/Users/akcen/OneDrive/Desktop/Narutaco/Narutaco/Content/blueprints/character.uasset'
-[2019.12.11-19.37.03:646][779]BlueprintLog: New page: Compile character
-[2019.12.11-19.37.03:856][779]LogUObjectHash: Compacting FUObjectHashTables data took   3.34ms
-[2019.12.11-19.38.59:842][ 46]BlueprintLog: New page: Compile character
-[2019.12.11-19.39.00:060][ 46]LogUObjectHash: Compacting FUObjectHashTables data took   3.24ms
-[2019.12.11-19.39.15:249][463]LogTemp: Repeating last play command: New Editor Window (PIE)
-[2019.12.11-19.39.15:270][463]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/level/project.project:PersistentLevel' has LevelScriptBlueprint '/Game/level/project.project:PersistentLevel.project' with GeneratedClass '/Game/level/project.project_C' with ClassGeneratedBy '/Game/level/project.project:PersistentLevel.project'
-[2019.12.11-19.39.15:270][463]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.12.11-19.39.15:270][463]PIE: New page: PIE session: project (Dec 11, 2019, 7:39:15 AM)
-[2019.12.11-19.39.15:283][463]LogPlayLevel: Creating play world package: /Game/level/UEDPIE_0_project
-[2019.12.11-19.39.15:323][463]LogPlayLevel: PIE: StaticDuplicateObject took: (0.040567s)
-[2019.12.11-19.39.15:324][463]LogAIModule: Creating AISystem for world project
-[2019.12.11-19.39.15:324][463]LogPlayLevel: PIE: World Init took: (0.000577s)
-[2019.12.11-19.39.15:325][463]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/level/project.project to /Game/level/UEDPIE_0_project.project (0.041618s)
-[2019.12.11-19.39.15:364][463]LogUObjectHash: Compacting FUObjectHashTables data took   3.11ms
-[2019.12.11-19.39.15:465][463]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2019.12.11-19.39.15:486][463]LogInit: FAudioDevice initialized.
-[2019.12.11-19.39.15:498][463]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.12.11-19.39.15:562][463]LogLoad: Game class is 'game_mode_C'
-[2019.12.11-19.39.15:576][463]LogWorld: Bringing World /Game/level/UEDPIE_0_project.project up for play (max tick rate 0) at 2019.12.11-13.39.15
-[2019.12.11-19.39.15:578][463]LogWorld: Bringing up level for play took: 0.015004
-[2019.12.11-19.39.15:596][463]LogBlueprintActionDatabase: Requesting refresh due to module change: Voice (loaded)
-[2019.12.11-19.39.15:601][463]LogBlueprintActionDatabase: Requesting refresh due to module change: MovieSceneCapture (loaded)
-[2019.12.11-19.39.15:601][463]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 20 classes and 0 folders.
-[2019.12.11-19.39.15:609][463]PIE: Play in editor start time for /Game/level/UEDPIE_0_project 0.39
-[2019.12.11-19.39.15:610][463]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/level/project.project:PersistentLevel' has LevelScriptBlueprint '/Game/level/project.project:PersistentLevel.project' with GeneratedClass '/Game/level/project.project_C' with ClassGeneratedBy '/Game/level/project.project:PersistentLevel.project'
-[2019.12.11-19.39.23:541][ 30]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/level/project.project:PersistentLevel' has LevelScriptBlueprint '/Game/level/project.project:PersistentLevel.project' with GeneratedClass '/Game/level/project.project_C' with ClassGeneratedBy '/Game/level/project.project:PersistentLevel.project'
-[2019.12.11-19.39.23:541][ 30]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.12.11-19.39.23:557][ 30]LogSlate: Window 'Narutaco Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2019.12.11-19.39.23:593][ 30]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.12.11-19.39.23:594][ 30]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/level/project.project:PersistentLevel' has LevelScriptBlueprint '/Game/level/project.project:PersistentLevel.project' with GeneratedClass '/Game/level/project.project_C' with ClassGeneratedBy '/Game/level/project.project:PersistentLevel.project'
-[2019.12.11-19.39.23:670][ 30]LogUObjectHash: Compacting FUObjectHashTables data took   7.41ms
-[2019.12.11-19.39.23:706][ 31]LogPlayLevel: Display: Destroying online subsystem :Context_2
-[2019.12.11-19.40.53:125][ 86]BlueprintLog: New page: Compile character
-[2019.12.11-19.40.53:393][ 86]LogUObjectHash: Compacting FUObjectHashTables data took   5.10ms
-[2019.12.11-19.40.53:900][126]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/blueprints/character" FILE="C:/Users/akcen/OneDrive/Desktop/Narutaco/Narutaco/Content/blueprints/character.uasset" SILENT=true
-[2019.12.11-19.40.53:990][126]LogSavePackage: Moving 'C:/Users/akcen/OneDrive/Desktop/Narutaco/Narutaco/Saved/character3674E9AE454CDE5BA193DC9001B583A9.tmp' to 'C:/Users/akcen/OneDrive/Desktop/Narutaco/Narutaco/Content/blueprints/character.uasset'
-[2019.12.11-19.41.06:840][549]LogSlate: Window 'character' being destroyed
-[2019.12.11-19.41.06:846][549]LogSlate: Window 'character' being destroyed
-[2019.12.11-19.41.10:460][953]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/sprites/Spike.Spike
-[2019.12.11-19.41.28:201][715]LogUObjectArray: Warning: Other object in slot
-[2019.12.11-19.41.28:490][715]LogOutputDevice: Warning: 
-
-Script Stack (0 frames):
-
-[2019.12.11-19.41.28:817][715]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.327 s
-[2019.12.11-19.41.28:817][715]LogOutputDevice: Error: === Handled ensure: ===
-[2019.12.11-19.41.28:817][715]LogOutputDevice: Error: 
-[2019.12.11-19.41.28:817][715]LogOutputDevice: Error: Ensure condition failed: false [File:D:\Build\++UE4\Sync\Engine\Source\Editor\UnrealEd\Private\Kismet2\KismetDebugUtilities.cpp] [Line: 1156]
-[2019.12.11-19.41.28:817][715]LogOutputDevice: Error: Error: Invalid (but non-null) property associated with pin; cannot get variable value
-[2019.12.11-19.41.28:817][715]LogOutputDevice: Error: Stack: 
-[2019.12.11-19.41.28:817][715]LogOutputDevice: Error: [Callstack] 0x00007ff998d6c0c9 UE4Editor-UnrealEd.dll!UnknownFunction []
-[2019.12.11-19.41.28:817][715]LogOutputDevice: Error: [Callstack] 0x00007ff9985e6fee UE4Editor-UnrealEd.dll!UnknownFunction []
-[2019.12.11-19.41.28:817][715]LogOutputDevice: Error: [Callstack] 0x00007ff9985f4e00 UE4Editor-UnrealEd.dll!UnknownFunction []
-[2019.12.11-19.41.28:817][715]LogOutputDevice: Error: [Callstack] 0x00007ff999c337f2 UE4Editor-BlueprintGraph.dll!UnknownFunction []
-[2019.12.11-19.41.28:817][715]LogOutputDevice: Error: [Callstack] 0x00007ff98f145cfa UE4Editor-GraphEditor.dll!UnknownFunction []
-[2019.12.11-19.41.28:817][715]LogOutputDevice: Error: [Callstack] 0x00007ff98f101e47 UE4Editor-GraphEditor.dll!UnknownFunction []
-[2019.12.11-19.41.28:817][715]LogOutputDevice: Error: [Callstack] 0x00007ff9a76c5984 UE4Editor-Slate.dll!UnknownFunction []
-[2019.12.11-19.41.28:817][715]LogOutputDevice: Error: [Callstack] 0x00007ff9a78b15e3 UE4Editor-Slate.dll!UnknownFunction []
-[2019.12.11-19.41.28:817][715]LogOutputDevice: Error: [Callstack] 0x00007ff9a770d70b UE4Editor-Slate.dll!UnknownFunction []
-[2019.12.11-19.41.28:817][715]LogOutputDevice: Error: [Callstack] 0x00007ff9a76eaf5a UE4Editor-Slate.dll!UnknownFunction []
-[2019.12.11-19.41.28:817][715]LogOutputDevice: Error: [Callstack] 0x00007ff9a76e0287 UE4Editor-Slate.dll!UnknownFunction []
-[2019.12.11-19.41.28:817][715]LogOutputDevice: Error: [Callstack] 0x00007ff9d525b726 UE4Editor-ApplicationCore.dll!UnknownFunction []
-[2019.12.11-19.41.28:817][715]LogOutputDevice: Error: [Callstack] 0x00007ff9d524ef9f UE4Editor-ApplicationCore.dll!UnknownFunction []
-[2019.12.11-19.41.28:817][715]LogOutputDevice: Error: [Callstack] 0x00007ff9d525d77f UE4Editor-ApplicationCore.dll!UnknownFunction []
-[2019.12.11-19.41.28:817][715]LogOutputDevice: Error: [Callstack] 0x00007ff9d524c090 UE4Editor-ApplicationCore.dll!UnknownFunction []
-[2019.12.11-19.41.28:817][715]LogOutputDevice: Error: [Callstack] 0x00007ff9dce263ed USER32.dll!UnknownFunction []
-[2019.12.11-19.41.28:817][715]LogOutputDevice: Error: [Callstack] 0x00007ff9dce25de2 USER32.dll!UnknownFunction []
-[2019.12.11-19.41.28:817][715]LogOutputDevice: Error: [Callstack] 0x00007ff9d525e946 UE4Editor-ApplicationCore.dll!UnknownFunction []
-[2019.12.11-19.41.28:817][715]LogOutputDevice: Error: [Callstack] 0x00007ff7ea335d3e UE4Editor.exe!UnknownFunction []
-[2019.12.11-19.41.28:817][715]LogOutputDevice: Error: [Callstack] 0x00007ff7ea34554c UE4Editor.exe!UnknownFunction []
-[2019.12.11-19.41.28:817][715]LogOutputDevice: Error: [Callstack] 0x00007ff7ea3455ca UE4Editor.exe!UnknownFunction []
-[2019.12.11-19.41.28:817][715]LogOutputDevice: Error: [Callstack] 0x00007ff7ea35316c UE4Editor.exe!UnknownFunction []
-[2019.12.11-19.41.28:817][715]LogOutputDevice: Error: [Callstack] 0x00007ff7ea355b8e UE4Editor.exe!UnknownFunction []
-[2019.12.11-19.41.28:818][715]LogOutputDevice: Error: [Callstack] 0x00007ff9dcfc7bd4 KERNEL32.DLL!UnknownFunction []
-[2019.12.11-19.41.28:818][715]LogOutputDevice: Error: [Callstack] 0x00007ff9de0aced1 ntdll.dll!UnknownFunction []
-[2019.12.11-19.41.28:818][715]LogOutputDevice: Error: 
-[2019.12.11-19.41.28:827][715]LogStats:                SubmitErrorReport -  0.000 s
-[2019.12.11-19.41.29:729][715]LogStats:                    SendNewReport -  0.902 s
-[2019.12.11-19.41.29:729][715]LogStats:             FDebug::EnsureFailed -  1.238 s
-[2019.12.11-19.41.29:729][715]LogUObjectArray: Warning: Other object in slot
-[2019.12.11-19.41.29:735][715]BlueprintLog: New page: Compile Spike
-[2019.12.11-19.41.30:008][715]LogUObjectHash: Compacting FUObjectHashTables data took   5.68ms
-[2019.12.11-19.41.31:306][816]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/sprites/Spike" FILE="C:/Users/akcen/OneDrive/Desktop/Narutaco/Narutaco/Content/sprites/Spike.uasset" SILENT=true
-[2019.12.11-19.41.31:337][816]LogSavePackage: Moving 'C:/Users/akcen/OneDrive/Desktop/Narutaco/Narutaco/Saved/Spike4A00746B40F9735E8DB421B030188482.tmp' to 'C:/Users/akcen/OneDrive/Desktop/Narutaco/Narutaco/Content/sprites/Spike.uasset'
-[2019.12.11-19.43.32:818][810]BlueprintLog: New page: Compile Spike
-[2019.12.11-19.43.33:074][810]LogUObjectHash: Compacting FUObjectHashTables data took   4.75ms
-[2019.12.11-19.43.37:674][343]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/sprites/Spike" FILE="C:/Users/akcen/OneDrive/Desktop/Narutaco/Narutaco/Content/sprites/Spike.uasset" SILENT=true
-[2019.12.11-19.43.37:701][343]LogSavePackage: Moving 'C:/Users/akcen/OneDrive/Desktop/Narutaco/Narutaco/Saved/Spike6FF29B524217C2F8D76B4A8BFECC1DE5.tmp' to 'C:/Users/akcen/OneDrive/Desktop/Narutaco/Narutaco/Content/sprites/Spike.uasset'
-[2019.12.11-19.44.28:362][567]LogRenderer: Reallocating scene render targets to support 1616x1000 Format 10 NumSamples 1 (Frame:1).
-[2019.12.11-19.44.36:413][406]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.12.11-19.44.45:296][284]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.12.11-19.44.45:366][292]BlueprintLog: New page: Compile Spike
-[2019.12.11-19.44.45:565][292]LogUObjectHash: Compacting FUObjectHashTables data took   3.38ms
-[2019.12.11-19.44.46:045][335]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/sprites/Spike" FILE="C:/Users/akcen/OneDrive/Desktop/Narutaco/Narutaco/Content/sprites/Spike.uasset" SILENT=true
-[2019.12.11-19.44.46:073][335]LogSavePackage: Moving 'C:/Users/akcen/OneDrive/Desktop/Narutaco/Narutaco/Saved/Spike1ECC1B754B8868EF409A3182661E1AA1.tmp' to 'C:/Users/akcen/OneDrive/Desktop/Narutaco/Narutaco/Content/sprites/Spike.uasset'
-[2019.12.11-19.45.16:763][774]BlueprintLog: New page: Compile Spike
-[2019.12.11-19.45.16:966][774]LogUObjectHash: Compacting FUObjectHashTables data took   3.23ms
-[2019.12.11-19.45.17:670][852]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/sprites/Spike" FILE="C:/Users/akcen/OneDrive/Desktop/Narutaco/Narutaco/Content/sprites/Spike.uasset" SILENT=true
-[2019.12.11-19.45.17:699][852]LogSavePackage: Moving 'C:/Users/akcen/OneDrive/Desktop/Narutaco/Narutaco/Saved/Spike09D1C0E74A712FDA61FA7DB5546AED0F.tmp' to 'C:/Users/akcen/OneDrive/Desktop/Narutaco/Narutaco/Content/sprites/Spike.uasset'
-[2019.12.11-19.46.21:100][311]LogUObjectHash: Compacting FUObjectHashTables data took   3.14ms
-[2019.12.11-19.46.21:101][311]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/level/project" FILE="C:/Users/akcen/OneDrive/Desktop/Narutaco/Narutaco/Saved/Autosaves/Game/level/project_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
-[2019.12.11-19.46.21:901][311]LogSavePackage: Moving 'C:/Users/akcen/OneDrive/Desktop/Narutaco/Narutaco/Saved/project_Auto134D5071C4CF24446DDD0878CD42418D8.tmp' to 'C:/Users/akcen/OneDrive/Desktop/Narutaco/Narutaco/Saved/Autosaves/Game/level/project_Auto1.umap'
-[2019.12.11-19.46.21:905][311]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/level/project' took 0.842
-[2019.12.11-19.46.21:905][311]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.842
-[2019.12.11-19.46.21:907][311]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/sprites/Spike] ([1] browsable assets)...
-[2019.12.11-19.46.21:907][311]OBJ SavePackage: Finished generating thumbnails for package [/Game/sprites/Spike]
-[2019.12.11-19.46.21:907][311]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/sprites/Spike" FILE="C:/Users/akcen/OneDrive/Desktop/Narutaco/Narutaco/Saved/Autosaves/Game/sprites/Spike_Auto1.uasset" SILENT=false AUTOSAVING=true
-[2019.12.11-19.46.21:936][311]LogSavePackage: Moving 'C:/Users/akcen/OneDrive/Desktop/Narutaco/Narutaco/Saved/Spike_Auto1D4F6A889499FD581459BFD8D6E746C62.tmp' to 'C:/Users/akcen/OneDrive/Desktop/Narutaco/Narutaco/Saved/Autosaves/Game/sprites/Spike_Auto1.uasset'
-[2019.12.11-19.46.21:938][311]LogFileHelpers: Auto-saving content packages took 0.031
-[2019.12.11-19.49.40:866][207]BlueprintLog: New page: Compile Spike
-[2019.12.11-19.49.40:869][207]LogBlueprint: Error: [Compiler Spike] This blueprint (self) is not a character_C, therefore ' Target ' must have a connection.
-[2019.12.11-19.49.40:869][207]LogBlueprint: Error: [Compiler Spike] Variable node  Set health  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
-[2019.12.11-19.49.41:067][207]LogUObjectHash: Compacting FUObjectHashTables data took   2.96ms
-[2019.12.11-19.49.41:072][207]LogBlueprint: Warning: [Compiler Spike] [1009.03] Compile of Spike failed. 2 Fatal Issue(s) 0 Warning(s) [in 206 ms] (/Game/sprites/Spike.Spike)
-[2019.12.11-19.49.55:774][840]BlueprintLog: New page: Compile Spike
-[2019.12.11-19.49.55:974][840]LogUObjectHash: Compacting FUObjectHashTables data took   3.30ms
-[2019.12.11-19.49.56:803][922]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/sprites/Spike" FILE="C:/Users/akcen/OneDrive/Desktop/Narutaco/Narutaco/Content/sprites/Spike.uasset" SILENT=true
-[2019.12.11-19.49.56:841][922]LogSavePackage: Moving 'C:/Users/akcen/OneDrive/Desktop/Narutaco/Narutaco/Saved/SpikeD9F86C9F43B8A72BBDF4849617D0EB1C.tmp' to 'C:/Users/akcen/OneDrive/Desktop/Narutaco/Narutaco/Content/sprites/Spike.uasset'
-[2019.12.11-19.50.01:956][495]LogTemp: Repeating last play command: New Editor Window (PIE)
-[2019.12.11-19.50.01:977][495]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/level/project.project:PersistentLevel' has LevelScriptBlueprint '/Game/level/project.project:PersistentLevel.project' with GeneratedClass '/Game/level/project.project_C' with ClassGeneratedBy '/Game/level/project.project:PersistentLevel.project'
-[2019.12.11-19.50.01:977][495]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.12.11-19.50.01:977][495]PIE: New page: PIE session: project (Dec 11, 2019, 7:50:01 AM)
-[2019.12.11-19.50.01:977][495]LogPlayLevel: Creating play world package: /Game/level/UEDPIE_0_project
-[2019.12.11-19.50.02:017][495]LogPlayLevel: PIE: StaticDuplicateObject took: (0.040172s)
-[2019.12.11-19.50.02:018][495]LogAIModule: Creating AISystem for world project
-[2019.12.11-19.50.02:018][495]LogPlayLevel: PIE: World Init took: (0.000571s)
-[2019.12.11-19.50.02:018][495]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/level/project.project to /Game/level/UEDPIE_0_project.project (0.040964s)
-[2019.12.11-19.50.02:058][495]LogUObjectHash: Compacting FUObjectHashTables data took   3.27ms
-[2019.12.11-19.50.02:158][495]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2019.12.11-19.50.02:176][495]LogInit: FAudioDevice initialized.
-[2019.12.11-19.50.02:186][495]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.12.11-19.50.02:218][495]LogLoad: Game class is 'game_mode_C'
-[2019.12.11-19.50.02:231][495]LogWorld: Bringing World /Game/level/UEDPIE_0_project.project up for play (max tick rate 0) at 2019.12.11-13.50.02
-[2019.12.11-19.50.02:234][495]LogWorld: Bringing up level for play took: 0.015022
-[2019.12.11-19.50.02:546][495]PIE: Play in editor start time for /Game/level/UEDPIE_0_project 1.326
-[2019.12.11-19.50.02:546][495]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/level/project.project:PersistentLevel' has LevelScriptBlueprint '/Game/level/project.project:PersistentLevel.project' with GeneratedClass '/Game/level/project.project_C' with ClassGeneratedBy '/Game/level/project.project:PersistentLevel.project'
-[2019.12.11-19.50.09:364][305]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/level/project.project:PersistentLevel' has LevelScriptBlueprint '/Game/level/project.project:PersistentLevel.project' with GeneratedClass '/Game/level/project.project_C' with ClassGeneratedBy '/Game/level/project.project:PersistentLevel.project'
-[2019.12.11-19.50.09:364][305]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.12.11-19.50.09:380][305]LogSlate: Window 'Narutaco Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2019.12.11-19.50.09:418][305]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.12.11-19.50.09:419][305]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/level/project.project:PersistentLevel' has LevelScriptBlueprint '/Game/level/project.project:PersistentLevel.project' with GeneratedClass '/Game/level/project.project_C' with ClassGeneratedBy '/Game/level/project.project:PersistentLevel.project'
-[2019.12.11-19.50.09:492][305]LogUObjectHash: Compacting FUObjectHashTables data took   2.25ms
-[2019.12.11-19.50.09:511][306]LogPlayLevel: Display: Destroying online subsystem :Context_5
-[2019.12.11-19.50.36:884][809]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/blueprints/character.character
-[2019.12.11-19.54.10:704][725]BlueprintLog: New page: Compile character
-[2019.12.11-19.54.10:928][725]LogUObjectHash: Compacting FUObjectHashTables data took   3.15ms
-[2019.12.11-19.54.12:140][812]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/blueprints/character" FILE="C:/Users/akcen/OneDrive/Desktop/Narutaco/Narutaco/Content/blueprints/character.uasset" SILENT=true
-[2019.12.11-19.54.12:231][812]LogSavePackage: Moving 'C:/Users/akcen/OneDrive/Desktop/Narutaco/Narutaco/Saved/characterFA9C1F69486A82E85317B3BCE4BD4983.tmp' to 'C:/Users/akcen/OneDrive/Desktop/Narutaco/Narutaco/Content/blueprints/character.uasset'
-[2019.12.11-19.54.13:317][891]LogTemp: Repeating last play command: New Editor Window (PIE)
-[2019.12.11-19.54.13:336][891]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/level/project.project:PersistentLevel' has LevelScriptBlueprint '/Game/level/project.project:PersistentLevel.project' with GeneratedClass '/Game/level/project.project_C' with ClassGeneratedBy '/Game/level/project.project:PersistentLevel.project'
-[2019.12.11-19.54.13:336][891]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.12.11-19.54.13:336][891]PIE: New page: PIE session: project (Dec 11, 2019, 7:54:13 AM)
-[2019.12.11-19.54.13:337][891]LogPlayLevel: Creating play world package: /Game/level/UEDPIE_0_project
-[2019.12.11-19.54.13:379][891]LogPlayLevel: PIE: StaticDuplicateObject took: (0.041659s)
-[2019.12.11-19.54.13:379][891]LogAIModule: Creating AISystem for world project
-[2019.12.11-19.54.13:379][891]LogPlayLevel: PIE: World Init took: (0.000555s)
-[2019.12.11-19.54.13:380][891]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/level/project.project to /Game/level/UEDPIE_0_project.project (0.042433s)
-[2019.12.11-19.54.13:420][891]LogUObjectHash: Compacting FUObjectHashTables data took   4.03ms
-[2019.12.11-19.54.13:569][891]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2019.12.11-19.54.13:608][891]LogInit: FAudioDevice initialized.
-[2019.12.11-19.54.13:620][891]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.12.11-19.54.13:652][891]LogLoad: Game class is 'game_mode_C'
-[2019.12.11-19.54.13:665][891]LogWorld: Bringing World /Game/level/UEDPIE_0_project.project up for play (max tick rate 0) at 2019.12.11-13.54.13
-[2019.12.11-19.54.13:668][891]LogWorld: Bringing up level for play took: 0.015180
-[2019.12.11-19.54.13:687][891]PIE: Play in editor start time for /Game/level/UEDPIE_0_project 0.468
-[2019.12.11-19.54.13:687][891]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/level/project.project:PersistentLevel' has LevelScriptBlueprint '/Game/level/project.project:PersistentLevel.project' with GeneratedClass '/Game/level/project.project_C' with ClassGeneratedBy '/Game/level/project.project:PersistentLevel.project'
-[2019.12.11-19.54.22:699][476]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/level/project.project:PersistentLevel' has LevelScriptBlueprint '/Game/level/project.project:PersistentLevel.project' with GeneratedClass '/Game/level/project.project_C' with ClassGeneratedBy '/Game/level/project.project:PersistentLevel.project'
-[2019.12.11-19.54.22:700][476]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.12.11-19.54.22:715][476]LogSlate: Window 'Narutaco Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2019.12.11-19.54.22:756][476]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.12.11-19.54.22:757][476]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/level/project.project:PersistentLevel' has LevelScriptBlueprint '/Game/level/project.project:PersistentLevel.project' with GeneratedClass '/Game/level/project.project_C' with ClassGeneratedBy '/Game/level/project.project:PersistentLevel.project'
-[2019.12.11-19.54.22:805][476]LogUObjectHash: Compacting FUObjectHashTables data took   2.15ms
-[2019.12.11-19.54.22:840][477]LogPlayLevel: Display: Destroying online subsystem :Context_7
-[2019.12.11-19.56.57:497][451]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
-[2019.12.11-19.56.57:498][451]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/level/project" FILE="C:/Users/akcen/OneDrive/Desktop/Narutaco/Narutaco/Saved/Autosaves/Game/level/project_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
-[2019.12.11-19.56.58:304][451]LogSavePackage: Moving 'C:/Users/akcen/OneDrive/Desktop/Narutaco/Narutaco/Saved/project_Auto20C7E92C14D2635AA106C2CAC79A9A6A6.tmp' to 'C:/Users/akcen/OneDrive/Desktop/Narutaco/Narutaco/Saved/Autosaves/Game/level/project_Auto2.umap'
-[2019.12.11-19.56.58:308][451]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/level/project' took 0.844
-[2019.12.11-19.56.58:308][451]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.844
-[2019.12.11-19.57.47:065][169]LogSlate: Window 'character' being destroyed
-[2019.12.11-19.57.47:071][169]LogSlate: Window 'character' being destroyed
-[2019.12.11-19.57.47:146][169]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
-[2019.12.11-19.57.48:597][331]LogTemp: Repeating last play command: New Editor Window (PIE)
-[2019.12.11-19.57.48:619][331]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/level/project.project:PersistentLevel' has LevelScriptBlueprint '/Game/level/project.project:PersistentLevel.project' with GeneratedClass '/Game/level/project.project_C' with ClassGeneratedBy '/Game/level/project.project:PersistentLevel.project'
-[2019.12.11-19.57.48:619][331]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.12.11-19.57.48:619][331]PIE: New page: PIE session: project (Dec 11, 2019, 7:57:48 AM)
-[2019.12.11-19.57.48:619][331]LogPlayLevel: Creating play world package: /Game/level/UEDPIE_0_project
-[2019.12.11-19.57.48:659][331]LogPlayLevel: PIE: StaticDuplicateObject took: (0.039774s)
-[2019.12.11-19.57.48:659][331]LogAIModule: Creating AISystem for world project
-[2019.12.11-19.57.48:660][331]LogPlayLevel: PIE: World Init took: (0.000513s)
-[2019.12.11-19.57.48:660][331]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/level/project.project to /Game/level/UEDPIE_0_project.project (0.040513s)
-[2019.12.11-19.57.48:698][331]LogUObjectHash: Compacting FUObjectHashTables data took   2.91ms
-[2019.12.11-19.57.48:795][331]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2019.12.11-19.57.48:812][331]LogInit: FAudioDevice initialized.
-[2019.12.11-19.57.48:824][331]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.12.11-19.57.48:854][331]LogLoad: Game class is 'game_mode_C'
-[2019.12.11-19.57.48:868][331]LogWorld: Bringing World /Game/level/UEDPIE_0_project.project up for play (max tick rate 0) at 2019.12.11-13.57.48
-[2019.12.11-19.57.48:870][331]LogWorld: Bringing up level for play took: 0.015065
-[2019.12.11-19.57.48:887][331]PIE: Play in editor start time for /Game/level/UEDPIE_0_project -0.333
-[2019.12.11-19.57.48:887][331]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/level/project.project:PersistentLevel' has LevelScriptBlueprint '/Game/level/project.project:PersistentLevel.project' with GeneratedClass '/Game/level/project.project_C' with ClassGeneratedBy '/Game/level/project.project:PersistentLevel.project'
-[2019.12.11-19.58.01:085][788]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/level/project.project:PersistentLevel' has LevelScriptBlueprint '/Game/level/project.project:PersistentLevel.project' with GeneratedClass '/Game/level/project.project_C' with ClassGeneratedBy '/Game/level/project.project:PersistentLevel.project'
-[2019.12.11-19.58.01:085][788]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.12.11-19.58.01:101][788]LogSlate: Window 'Narutaco Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2019.12.11-19.58.01:140][788]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.12.11-19.58.01:141][788]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/level/project.project:PersistentLevel' has LevelScriptBlueprint '/Game/level/project.project:PersistentLevel.project' with GeneratedClass '/Game/level/project.project_C' with ClassGeneratedBy '/Game/level/project.project:PersistentLevel.project'
-[2019.12.11-19.58.01:189][788]LogUObjectHash: Compacting FUObjectHashTables data took   2.47ms
-[2019.12.11-19.58.01:207][789]LogPlayLevel: Display: Destroying online subsystem :Context_8
-[2019.12.11-19.58.10:644][913]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/blueprints/character.character
-[2019.12.11-19.58.46:806][906]LogTemp: Repeating last play command: New Editor Window (PIE)
-[2019.12.11-19.58.46:825][906]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/level/project.project:PersistentLevel' has LevelScriptBlueprint '/Game/level/project.project:PersistentLevel.project' with GeneratedClass '/Game/level/project.project_C' with ClassGeneratedBy '/Game/level/project.project:PersistentLevel.project'
-[2019.12.11-19.58.46:825][906]BlueprintLog: New page: Pre-Play auto-recompile
-[2019.12.11-19.58.46:830][906]LogPlayLevel: [PlayLevel] Compiling character before play...
-[2019.12.11-19.58.47:073][906]LogUObjectHash: Compacting FUObjectHashTables data took   3.54ms
-[2019.12.11-19.58.47:073][906]LogPlayLevel: PlayLevel: Blueprint regeneration took 246 ms (1 blueprints)
-[2019.12.11-19.58.47:073][906]PIE: New page: PIE session: project (Dec 11, 2019, 7:58:47 AM)
-[2019.12.11-19.58.47:073][906]LogPlayLevel: Creating play world package: /Game/level/UEDPIE_0_project
-[2019.12.11-19.58.47:113][906]LogPlayLevel: PIE: StaticDuplicateObject took: (0.039574s)
-[2019.12.11-19.58.47:113][906]LogAIModule: Creating AISystem for world project
-[2019.12.11-19.58.47:113][906]LogPlayLevel: PIE: World Init took: (0.000508s)
-[2019.12.11-19.58.47:113][906]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/level/project.project to /Game/level/UEDPIE_0_project.project (0.040293s)
-[2019.12.11-19.58.47:152][906]LogUObjectHash: Compacting FUObjectHashTables data took   1.94ms
-[2019.12.11-19.58.47:254][906]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2019.12.11-19.58.47:271][906]LogInit: FAudioDevice initialized.
-[2019.12.11-19.58.47:281][906]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.12.11-19.58.47:314][906]LogLoad: Game class is 'game_mode_C'
-[2019.12.11-19.58.47:327][906]LogWorld: Bringing World /Game/level/UEDPIE_0_project.project up for play (max tick rate 0) at 2019.12.11-13.58.47
-[2019.12.11-19.58.47:329][906]LogWorld: Bringing up level for play took: 0.014901
-[2019.12.11-19.58.47:345][906]PIE: Play in editor start time for /Game/level/UEDPIE_0_project 0.126
-[2019.12.11-19.58.47:346][906]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/level/project.project:PersistentLevel' has LevelScriptBlueprint '/Game/level/project.project:PersistentLevel.project' with GeneratedClass '/Game/level/project.project_C' with ClassGeneratedBy '/Game/level/project.project:PersistentLevel.project'
-[2019.12.11-19.58.53:303][373]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/level/project.project:PersistentLevel' has LevelScriptBlueprint '/Game/level/project.project:PersistentLevel.project' with GeneratedClass '/Game/level/project.project_C' with ClassGeneratedBy '/Game/level/project.project:PersistentLevel.project'
-[2019.12.11-19.58.53:303][373]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.12.11-19.58.53:319][373]LogSlate: Window 'Narutaco Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2019.12.11-19.58.53:357][373]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.12.11-19.58.53:358][373]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/level/project.project:PersistentLevel' has LevelScriptBlueprint '/Game/level/project.project:PersistentLevel.project' with GeneratedClass '/Game/level/project.project_C' with ClassGeneratedBy '/Game/level/project.project:PersistentLevel.project'
-[2019.12.11-19.58.53:405][373]LogUObjectHash: Compacting FUObjectHashTables data took   1.95ms
-[2019.12.11-19.58.53:437][374]LogPlayLevel: Display: Destroying online subsystem :Context_10
-[2019.12.11-19.58.57:006][660]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/blueprints/character" FILE="C:/Users/akcen/OneDrive/Desktop/Narutaco/Narutaco/Content/blueprints/character.uasset" SILENT=true
-[2019.12.11-19.58.57:092][660]LogSavePackage: Moving 'C:/Users/akcen/OneDrive/Desktop/Narutaco/Narutaco/Saved/character5614C6F54395079122D0E9AA60FA2F57.tmp' to 'C:/Users/akcen/OneDrive/Desktop/Narutaco/Narutaco/Content/blueprints/character.uasset'
-[2019.12.11-19.58.58:266][745]LogSlate: Window 'character' being destroyed
-[2019.12.11-19.58.58:274][745]LogSlate: Window 'character' being destroyed
+[2019.12.11-20.13.53:537][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.12.11-20.13.53:538][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.12.11-20.13.53:589][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Enrique/Documents/GitHub/Narutaco/Narutaco/Saved/Config/Windows/Engine.ini]
+[2019.12.11-20.13.53:589][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.12.11-20.13.53:589][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/Enrique/Documents/GitHub/Narutaco/Narutaco/Saved/Config/Windows/Engine.ini]
+[2019.12.11-20.13.53:589][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Enrique/Documents/GitHub/Narutaco/Narutaco/Saved/Config/Windows/Engine.ini]
+[2019.12.11-20.13.53:589][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.12.11-20.13.53:589][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.12.11-20.13.53:589][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.12.11-20.13.53:589][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.12.11-20.13.53:589][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.12.11-20.13.53:589][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.12.11-20.13.53:589][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.12.11-20.13.53:589][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.12.11-20.13.53:589][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.12.11-20.13.53:589][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.12.11-20.13.53:589][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.12.11-20.13.53:589][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.12.11-20.13.53:589][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.12.11-20.13.53:589][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/Enrique/Documents/GitHub/Narutaco/Narutaco/Saved/Config/Windows/Engine.ini]
+[2019.12.11-20.13.53:590][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.12.11-20.13.53:590][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.12.11-20.13.53:590][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.12.11-20.13.53:590][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.12.11-20.13.53:590][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.12.11-20.13.53:590][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.12.11-20.13.53:590][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2019.12.11-20.13.53:590][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.12.11-20.13.53:590][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.12.11-20.13.53:590][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.12.11-20.13.53:590][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.12.11-20.13.53:590][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.12.11-20.13.53:590][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.12.11-20.13.53:590][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/Enrique/Documents/GitHub/Narutaco/Narutaco/Saved/Config/Windows/Engine.ini]
+[2019.12.11-20.13.53:590][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/Enrique/Documents/GitHub/Narutaco/Narutaco/Saved/Config/Windows/Engine.ini]
+[2019.12.11-20.13.53:678][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Enrique/Documents/GitHub/Narutaco/Narutaco/Saved/Config/Windows/Scalability.ini]
+[2019.12.11-20.13.53:678][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.12.11-20.13.53:678][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.12.11-20.13.53:678][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Enrique/Documents/GitHub/Narutaco/Narutaco/Saved/Config/Windows/Scalability.ini]
+[2019.12.11-20.13.53:678][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.12.11-20.13.53:678][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Enrique/Documents/GitHub/Narutaco/Narutaco/Saved/Config/Windows/Scalability.ini]
+[2019.12.11-20.13.53:678][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.12.11-20.13.53:678][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.12.11-20.13.53:678][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.12.11-20.13.53:678][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.12.11-20.13.53:678][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.12.11-20.13.53:678][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.12.11-20.13.53:678][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.12.11-20.13.53:678][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.12.11-20.13.53:678][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.12.11-20.13.53:678][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.12.11-20.13.53:678][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.12.11-20.13.53:678][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.12.11-20.13.53:678][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.12.11-20.13.53:678][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.12.11-20.13.53:678][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.12.11-20.13.53:678][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.12.11-20.13.53:678][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.12.11-20.13.53:678][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.12.11-20.13.53:678][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Enrique/Documents/GitHub/Narutaco/Narutaco/Saved/Config/Windows/Scalability.ini]
+[2019.12.11-20.13.53:678][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.12.11-20.13.53:678][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.12.11-20.13.53:678][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.12.11-20.13.53:678][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.12.11-20.13.53:678][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.12.11-20.13.53:678][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.12.11-20.13.53:678][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.12.11-20.13.53:678][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.12.11-20.13.53:678][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.12.11-20.13.53:678][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.12.11-20.13.53:678][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.12.11-20.13.53:678][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.12.11-20.13.53:678][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.12.11-20.13.53:678][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.12.11-20.13.53:678][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.12.11-20.13.53:678][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.12.11-20.13.53:678][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.12.11-20.13.53:678][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.12.11-20.13.53:678][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.12.11-20.13.53:678][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.12.11-20.13.53:678][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.12.11-20.13.53:678][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.12.11-20.13.53:678][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.12.11-20.13.53:678][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.12.11-20.13.53:678][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.12.11-20.13.53:678][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.12.11-20.13.53:679][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.12.11-20.13.53:679][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.12.11-20.13.53:679][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.12.11-20.13.53:679][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.12.11-20.13.53:679][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Enrique/Documents/GitHub/Narutaco/Narutaco/Saved/Config/Windows/Scalability.ini]
+[2019.12.11-20.13.53:679][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.12.11-20.13.53:679][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.12.11-20.13.53:679][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.12.11-20.13.53:679][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.12.11-20.13.53:679][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.12.11-20.13.53:679][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.12.11-20.13.53:679][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.12.11-20.13.53:679][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.12.11-20.13.53:679][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Enrique/Documents/GitHub/Narutaco/Narutaco/Saved/Config/Windows/Scalability.ini]
+[2019.12.11-20.13.53:679][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.12.11-20.13.53:679][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.12.11-20.13.53:679][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.12.11-20.13.53:679][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.12.11-20.13.53:679][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.12.11-20.13.53:679][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.12.11-20.13.53:679][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.12.11-20.13.53:679][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.12.11-20.13.53:679][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.12.11-20.13.53:679][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.12.11-20.13.53:679][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.12.11-20.13.53:679][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.12.11-20.13.53:679][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.12.11-20.13.53:679][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Enrique/Documents/GitHub/Narutaco/Narutaco/Saved/Config/Windows/Scalability.ini]
+[2019.12.11-20.13.53:679][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.12.11-20.13.53:679][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.12.11-20.13.53:686][  0]LogInit: Selected Device Profile: [Windows]
+[2019.12.11-20.13.53:687][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.12.11-20.13.53:763][  0]LogHAL: Display: Platform has ~ 8 GB [8497946624 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.12.11-20.13.53:777][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:0		; Required until we fix HLR fall-out]]
+[2019.12.11-20.13.53:777][  0]LogInit: Going up to parent DeviceProfile []
+[2019.12.11-20.13.53:825][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Enrique/Documents/GitHub/Narutaco/Narutaco/Saved/Config/Windows/Scalability.ini]
+[2019.12.11-20.13.53:825][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.12.11-20.13.53:825][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.12.11-20.13.53:825][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Enrique/Documents/GitHub/Narutaco/Narutaco/Saved/Config/Windows/Scalability.ini]
+[2019.12.11-20.13.53:825][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.12.11-20.13.53:825][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Enrique/Documents/GitHub/Narutaco/Narutaco/Saved/Config/Windows/Scalability.ini]
+[2019.12.11-20.13.53:825][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.12.11-20.13.53:825][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.12.11-20.13.53:825][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.12.11-20.13.53:825][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.12.11-20.13.53:825][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.12.11-20.13.53:825][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.12.11-20.13.53:825][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.12.11-20.13.53:825][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.12.11-20.13.53:825][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.12.11-20.13.53:825][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.12.11-20.13.53:825][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.12.11-20.13.53:825][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.12.11-20.13.53:825][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.12.11-20.13.53:825][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.12.11-20.13.53:825][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.12.11-20.13.53:825][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.12.11-20.13.53:825][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.12.11-20.13.53:826][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.12.11-20.13.53:826][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Enrique/Documents/GitHub/Narutaco/Narutaco/Saved/Config/Windows/Scalability.ini]
+[2019.12.11-20.13.53:826][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.12.11-20.13.53:826][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.12.11-20.13.53:826][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.12.11-20.13.53:826][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.12.11-20.13.53:826][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.12.11-20.13.53:826][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.12.11-20.13.53:826][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.12.11-20.13.53:826][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.12.11-20.13.53:826][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.12.11-20.13.53:826][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.12.11-20.13.53:826][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.12.11-20.13.53:826][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.12.11-20.13.53:826][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.12.11-20.13.53:826][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.12.11-20.13.53:826][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.12.11-20.13.53:826][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.12.11-20.13.53:826][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.12.11-20.13.53:826][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.12.11-20.13.53:826][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.12.11-20.13.53:826][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.12.11-20.13.53:826][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.12.11-20.13.53:826][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.12.11-20.13.53:826][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.12.11-20.13.53:826][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.12.11-20.13.53:826][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.12.11-20.13.53:826][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.12.11-20.13.53:826][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.12.11-20.13.53:826][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.12.11-20.13.53:826][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.12.11-20.13.53:826][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.12.11-20.13.53:826][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Enrique/Documents/GitHub/Narutaco/Narutaco/Saved/Config/Windows/Scalability.ini]
+[2019.12.11-20.13.53:826][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.12.11-20.13.53:826][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.12.11-20.13.53:826][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.12.11-20.13.53:826][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.12.11-20.13.53:826][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.12.11-20.13.53:826][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.12.11-20.13.53:826][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.12.11-20.13.53:826][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.12.11-20.13.53:826][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Enrique/Documents/GitHub/Narutaco/Narutaco/Saved/Config/Windows/Scalability.ini]
+[2019.12.11-20.13.53:826][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.12.11-20.13.53:826][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.12.11-20.13.53:826][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.12.11-20.13.53:826][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.12.11-20.13.53:826][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.12.11-20.13.53:826][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.12.11-20.13.53:826][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.12.11-20.13.53:826][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.12.11-20.13.53:826][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.12.11-20.13.53:826][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.12.11-20.13.53:826][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.12.11-20.13.53:826][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.12.11-20.13.53:826][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.12.11-20.13.53:826][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Enrique/Documents/GitHub/Narutaco/Narutaco/Saved/Config/Windows/Scalability.ini]
+[2019.12.11-20.13.53:826][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.12.11-20.13.53:826][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.12.11-20.13.53:826][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.12.11-20.13.53:837][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.12.11-20.13.53:837][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2019.12.11-20.13.53:837][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Enrique/Documents/GitHub/Narutaco/Narutaco/Saved/Config/Windows/Engine.ini]
+[2019.12.11-20.13.53:846][  0]LogInit: Computer: DESKTOP-57RSJVK
+[2019.12.11-20.13.53:846][  0]LogInit: User: Enrique
+[2019.12.11-20.13.53:846][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.12.11-20.13.53:846][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.12.11-20.13.53:878][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2019.12.11-20.13.53:878][  0]LogMemory: Platform Memory Stats for Windows
+[2019.12.11-20.13.53:878][  0]LogMemory: Process Physical Memory: 97.12 MB used, 97.12 MB peak
+[2019.12.11-20.13.53:878][  0]LogMemory: Process Virtual Memory: 88.77 MB used, 88.77 MB peak
+[2019.12.11-20.13.53:878][  0]LogMemory: Physical Memory: 3355.69 MB used,  4748.59 MB free, 8104.27 MB total
+[2019.12.11-20.13.53:878][  0]LogMemory: Virtual Memory: 4642.26 MB used,  134213088.00 MB free, 134217728.00 MB total
+[2019.12.11-20.13.54:827][  0]LogInit: Using OS detected language (en-US).
+[2019.12.11-20.13.54:827][  0]LogInit: Using OS detected locale (en-US).
+[2019.12.11-20.13.54:849][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.12.11-20.13.55:450][  0]LogInit: Setting process to per monitor DPI aware
+[2019.12.11-20.13.56:324][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.12.11-20.13.56:324][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.12.11-20.14.00:855][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.12.11-20.14.00:855][  0]LogD3D11RHI: D3D11 adapters:
+[2019.12.11-20.14.01:130][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 860M' (Feature Level 11_0)
+[2019.12.11-20.14.01:130][  0]LogD3D11RHI:       2010/0/4052 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.12.11-20.14.01:151][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
+[2019.12.11-20.14.01:151][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2019.12.11-20.14.01:305][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.12.11-20.14.01:305][  0]LogD3D11RHI:       0/0/4052 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.12.11-20.14.01:305][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.12.11-20.14.01:357][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.12.11-20.14.01:359][  0]LogD3D11RHI:     GPU DeviceId: 0x1392 (for the marketing name, search the web for "GPU Device Id")
+[2019.12.11-20.14.01:359][  0]LogWindows: EnumDisplayDevices:
+[2019.12.11-20.14.01:359][  0]LogWindows:    0. 'Intel(R) HD Graphics 4600' (P:1 D:1)
+[2019.12.11-20.14.01:359][  0]LogWindows:    1. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2019.12.11-20.14.01:360][  0]LogWindows:    2. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2019.12.11-20.14.01:360][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2019.12.11-20.14.01:360][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 860M
+[2019.12.11-20.14.01:360][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2019.12.11-20.14.01:360][  0]LogD3D11RHI:      Driver Date: Unknown
+[2019.12.11-20.14.01:360][  0]LogRHI: Texture pool is 1407 MB (70% of 2010 MB)
+[2019.12.11-20.14.01:413][  0]LogD3D11RHI: Async texture creation enabled
+[2019.12.11-20.14.01:752][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.12.11-20.14.01:827][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.12.11-20.14.01:827][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.12.11-20.14.01:904][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 4)
+[2019.12.11-20.14.03:800][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2019.12.11-20.14.03:823][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2019.12.11-20.14.03:847][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2019.12.11-20.14.03:932][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2019.12.11-20.14.03:973][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2019.12.11-20.14.04:016][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2019.12.11-20.14.04:051][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2019.12.11-20.14.04:079][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2019.12.11-20.14.04:101][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2019.12.11-20.14.04:247][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2019.12.11-20.14.04:247][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2019.12.11-20.14.04:247][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2019.12.11-20.14.04:247][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2019.12.11-20.14.04:247][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2019.12.11-20.14.04:247][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2019.12.11-20.14.04:247][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2019.12.11-20.14.04:247][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2019.12.11-20.14.04:247][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2019.12.11-20.14.04:247][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2019.12.11-20.14.04:247][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2019.12.11-20.14.04:247][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2019.12.11-20.14.04:247][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2019.12.11-20.14.04:247][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2019.12.11-20.14.04:247][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2019.12.11-20.14.04:247][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2019.12.11-20.14.04:247][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2019.12.11-20.14.04:247][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2019.12.11-20.14.04:257][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2019.12.11-20.14.04:368][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2019.12.11-20.14.04:368][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2019.12.11-20.14.04:408][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2019.12.11-20.14.04:408][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2019.12.11-20.14.04:440][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2019.12.11-20.14.04:461][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2019.12.11-20.14.04:486][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2019.12.11-20.14.04:519][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2019.12.11-20.14.04:587][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2019.12.11-20.14.04:587][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2019.12.11-20.14.04:587][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.12.11-20.14.04:688][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2019.12.11-20.14.05:373][  0]LogShaderCompilers: Guid format shader working directory is -18 characters bigger than the processId version (../../../../../../Users/Enrique/Documents/GitHub/Narutaco/Narutaco/Intermediate/Shaders/WorkingDirectory/9068/).
+[2019.12.11-20.14.05:373][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Enrique/AppData/Local/Temp/UnrealShaderWorkingDir/AAED9D934B2D625D61A2159BB8245479/'.
+[2019.12.11-20.14.05:430][  0]LogXGEController: Cleaning working directory: C:/Users/Enrique/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.12.11-20.14.05:430][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.12.11-20.14.05:430][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.12.11-20.14.05:430][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.12.11-20.14.10:796][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.12.11-20.14.11:734][  0]LogDerivedDataCache: Loaded boot cache 0.94s 71MB C:/Users/Enrique/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2019.12.11-20.14.11:734][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Enrique/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc
+[2019.12.11-20.14.11:734][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Enrique/Documents/GitHub/Narutaco/Narutaco/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.12.11-20.14.11:734][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.12.11-20.14.11:734][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Enrique/Documents/GitHub/Narutaco/Narutaco/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.12.11-20.14.11:734][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.12.11-20.14.11:771][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.12.11-20.14.11:771][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.12.11-20.14.11:771][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.12.11-20.14.11:783][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Enrique/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.12.11-20.14.11:783][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.12.11-20.14.11:783][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.12.11-20.14.11:928][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.12.11-20.14.12:019][  0]LogSlate: Using FreeType 2.6.0
+[2019.12.11-20.14.12:063][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.12.11-20.14.13:685][  0]LogAssetRegistry: FAssetRegistry took 0.0400 seconds to start up
+[2019.12.11-20.14.24:135][  0]LogInit: Selected Device Profile: [Windows]
+[2019.12.11-20.14.28:984][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.12.11-20.14.28:984][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2019.12.11-20.14.28:984][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.12.11-20.14.28:984][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2019.12.11-20.14.29:000][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2019.12.11-20.14.30:180][  0]LogNetVersion: Narutaco 1.0.0, NetCL: 5660361, EngineNetVer: 10, GameNetVer: 0 (Checksum: 1127581655)
+[2019.12.11-20.14.40:890][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.097560 seconds
+[2019.12.11-20.14.40:914][  0]LogUObjectArray: 42205 objects as part of root set at end of initial load.
+[2019.12.11-20.14.40:914][  0]LogUObjectAllocator: 7325032 out of 0 bytes used by permanent object pool.
+[2019.12.11-20.14.40:914][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.12.11-20.15.09:766][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.12.11-20.15.09:800][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.12.11-20.15.10:398][  0]SourceControl: Source control is disabled
+[2019.12.11-20.15.10:407][  0]SourceControl: Source control is disabled
+[2019.12.11-20.15.10:500][  0]SourceControl: Source control is disabled
+[2019.12.11-20.15.10:516][  0]SourceControl: Source control is disabled
+[2019.12.11-20.15.10:581][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2019.12.11-20.15.10:582][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2019.12.11-20.15.11:639][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.12.11-20.15.12:274][  0]LogOcInput: OculusInput pre-init called
+[2019.12.11-20.15.14:164][  0]LogEngine: Initializing Engine...
+[2019.12.11-20.15.14:250][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.12.11-20.15.14:263][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.002 s
+[2019.12.11-20.15.14:533][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.12.11-20.15.14:957][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.12.11-20.15.15:306][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.12.11-20.15.15:459][  0]LogInit: FAudioDevice initialized.
+[2019.12.11-20.15.15:459][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.12.11-20.15.15:685][  0]LogDerivedDataCache: Saved boot cache 0.23s 71MB C:/Users/Enrique/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2019.12.11-20.15.15:690][  0]LogInit: Texture streaming: Enabled
+[2019.12.11-20.15.15:888][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.12.11-20.15.15:888][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=AbnormalShutdown, SessionId={5275BECE-45EC-4972-7450-72A45D670761}
+[2019.12.11-20.15.16:112][  0]LogInit: Transaction tracking system initialized
+[2019.12.11-20.15.16:780][  0]BlueprintLog: New page: Editor Load
+[2019.12.11-20.15.18:122][  0]LocalizationService: Localization service is disabled
+[2019.12.11-20.15.19:158][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2019.12.11-20.15.19:159][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2019.12.11-20.15.19:968][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Enrique/Documents/GitHub/Narutaco/Narutaco/Content/' took 0.01s
+[2019.12.11-20.15.19:968][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.12.11-20.15.19:969][  0]LogCook: Display: Mobile HDR setting 1
+[2019.12.11-20.15.22:521][  0]SourceControl: Source control is disabled
+[2019.12.11-20.15.23:090][  0]LogSlate: Took 0.016391 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.12.11-20.15.50:742][  0]LogSlate: Window 'Restore Packages' being destroyed
+[2019.12.11-20.15.50:760][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.12.11-20.15.50:786][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.12.11-20.15.50:824][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Enrique/Documents/GitHub/Narutaco/Narutaco/Content/level/project.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.12.11-20.15.50:827][  0]LightingResults: New page: Lighting Build
+[2019.12.11-20.15.50:951][  0]MapCheck: New page: Map Check
+[2019.12.11-20.15.50:951][  0]LightingResults: New page: Lighting Build
+[2019.12.11-20.15.51:301][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.40ms
+[2019.12.11-20.15.52:633][  0]LogTexture: Display: Building textures: Narutaco_death (BGRA8, 3710X2638)
+[2019.12.11-20.15.52:640][  0]LogAIModule: Creating AISystem for world project
+[2019.12.11-20.15.53:394][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.12.11-20.15.53:467][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.79ms
+[2019.12.11-20.15.53:467][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.12.11-20.15.53:484][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 6.805ms to complete.
+[2019.12.11-20.15.53:484][  0]LogFileHelpers: Loading map 'project' took 2.686
+[2019.12.11-20.15.55:326][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.11-20.15.55:337][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.11-20.15.55:346][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.11-20.15.55:354][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.11-20.15.55:417][  0]LogCollectionManager: Loaded 0 collections in 0.002279 seconds
+[2019.12.11-20.15.55:989][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Enrique/Documents/GitHub/Narutaco/Narutaco/Saved/Collections/' took 0.01s
+[2019.12.11-20.15.55:989][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Enrique/Documents/GitHub/Narutaco/Narutaco/Content/Developers/Enrique/Collections/' took 0.01s
+[2019.12.11-20.15.55:989][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Enrique/Documents/GitHub/Narutaco/Narutaco/Content/Collections/' took 0.01s
+[2019.12.11-20.15.55:989][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.12.11-20.15.56:037][  0]LogContentBrowser: Native class hierarchy populated in 0.0285 seconds. Added 2732 classes and 659 folders.
+[2019.12.11-20.15.56:250][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.12.11-20.15.56:313][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.11-20.15.56:343][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.11-20.15.56:388][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.11-20.15.56:396][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.11-20.15.56:407][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.11-20.15.56:410][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.11-20.15.56:439][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.11-20.15.56:441][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.11-20.15.56:451][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.11-20.15.56:474][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.11-20.15.56:490][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.11-20.15.56:512][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.11-20.15.56:519][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.11-20.15.56:546][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.11-20.15.56:562][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.11-20.15.56:581][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.11-20.15.56:595][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.11-20.15.56:609][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.11-20.15.56:635][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.11-20.15.56:637][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.11-20.15.56:659][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.11-20.15.56:667][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.11-20.15.56:690][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.11-20.15.56:694][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.11-20.15.56:698][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.11-20.15.56:723][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.11-20.15.57:432][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.12.11-20.15.57:494][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2019.12.11-20.15.58:155][  0]LogSlate: Took 0.015376 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.12.11-20.15.58:196][  0]LogSlate: Took 0.002396 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.12.11-20.15.58:498][  0]LogRenderer: Reallocating scene render targets to support 964x436 Format 10 NumSamples 1 (Frame:1).
+[2019.12.11-20.15.59:384][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.12.11-20.15.59:384][  0]LogLoad: (Engine Initialization) Total time: 140.07 seconds
+[2019.12.11-20.15.59:384][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.12.11-20.15.59:653][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.12.11-20.15.59:721][  0]LogSlate: Took 0.012986 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.12.11-20.15.59:835][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/Enrique/Documents/GitHub/Narutaco/Narutaco/Content/' took 0.36s
+[2019.12.11-20.15.59:874][  1]LogAssetRegistry: Asset discovery search completed in 106.2131 seconds
+[2019.12.11-20.15.59:886][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.12.11-20.15.59:886][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000062 seconds (updated 0 objects)
+[2019.12.11-20.16.23:270][704]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.11-20.16.23:353][714]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.12.11-20.16.23:366][714]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/level/project.project:PersistentLevel' has LevelScriptBlueprint '/Game/level/project.project:PersistentLevel.project' with GeneratedClass '/Game/level/project.project_C' with ClassGeneratedBy '/Game/level/project.project:PersistentLevel.project'
+[2019.12.11-20.16.23:413][714]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.12.11-20.16.23:446][714]PIE: New page: PIE session: project (Dec 11, 2019, 8:16:23 AM)
+[2019.12.11-20.16.23:486][714]LogPlayLevel: Creating play world package: /Game/level/UEDPIE_0_project
+[2019.12.11-20.16.23:525][714]LogPlayLevel: PIE: StaticDuplicateObject took: (0.039083s)
+[2019.12.11-20.16.23:526][714]LogAIModule: Creating AISystem for world project
+[2019.12.11-20.16.23:526][714]LogPlayLevel: PIE: World Init took: (0.001065s)
+[2019.12.11-20.16.23:526][714]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/level/project.project to /Game/level/UEDPIE_0_project.project (0.040669s)
+[2019.12.11-20.16.23:553][714]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2019.12.11-20.16.23:594][714]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.12.11-20.16.23:610][714]LogInit: FAudioDevice initialized.
+[2019.12.11-20.16.23:618][714]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.11-20.16.23:732][714]LogLoad: Game class is 'game_mode_C'
+[2019.12.11-20.16.23:767][714]LogWorld: Bringing World /Game/level/UEDPIE_0_project.project up for play (max tick rate 0) at 2019.12.11-14.16.23
+[2019.12.11-20.16.23:809][714]LogWorld: Bringing up level for play took: 0.055774
+[2019.12.11-20.16.23:918][714]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 20 classes and 0 folders.
+[2019.12.11-20.16.24:000][714]PIE: Play in editor start time for /Game/level/UEDPIE_0_project 1.627
+[2019.12.11-20.16.24:005][714]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/level/project.project:PersistentLevel' has LevelScriptBlueprint '/Game/level/project.project:PersistentLevel.project' with GeneratedClass '/Game/level/project.project_C' with ClassGeneratedBy '/Game/level/project.project:PersistentLevel.project'
+[2019.12.11-20.16.24:156][715]LogRenderer: Reallocating scene render targets to support 1016x544 Format 10 NumSamples 1 (Frame:1).
+[2019.12.11-20.16.44:049][ 72]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/level/project.project:PersistentLevel' has LevelScriptBlueprint '/Game/level/project.project:PersistentLevel.project' with GeneratedClass '/Game/level/project.project_C' with ClassGeneratedBy '/Game/level/project.project:PersistentLevel.project'
+[2019.12.11-20.16.44:195][ 72]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.11-20.16.44:206][ 72]LogSlate: Window 'Narutaco Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.12.11-20.16.44:257][ 72]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.12.11-20.16.44:257][ 72]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/level/project.project:PersistentLevel' has LevelScriptBlueprint '/Game/level/project.project:PersistentLevel.project' with GeneratedClass '/Game/level/project.project_C' with ClassGeneratedBy '/Game/level/project.project:PersistentLevel.project'
+[2019.12.11-20.16.44:350][ 72]LogUObjectHash: Compacting FUObjectHashTables data took   2.65ms
+[2019.12.11-20.16.44:412][ 73]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2019.12.11-20.16.51:545][619]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Spike_Tile_2__no_background__Sprite2)
+[2019.12.11-20.16.59:570][383]LogEditorViewport: Clicking Background
+[2019.12.11-20.17.10:621][912]Cmd: SELECT NONE
+[2019.12.11-20.17.11:734][954]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.11-20.17.11:792][961]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.12.11-20.17.11:804][961]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/level/project.project:PersistentLevel' has LevelScriptBlueprint '/Game/level/project.project:PersistentLevel.project' with GeneratedClass '/Game/level/project.project_C' with ClassGeneratedBy '/Game/level/project.project:PersistentLevel.project'
+[2019.12.11-20.17.11:804][961]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.12.11-20.17.11:804][961]PIE: New page: PIE session: project (Dec 11, 2019, 8:17:11 AM)
+[2019.12.11-20.17.11:804][961]LogPlayLevel: Creating play world package: /Game/level/UEDPIE_0_project
+[2019.12.11-20.17.11:843][961]LogPlayLevel: PIE: StaticDuplicateObject took: (0.038704s)
+[2019.12.11-20.17.11:844][961]LogAIModule: Creating AISystem for world project
+[2019.12.11-20.17.11:940][961]LogPlayLevel: PIE: World Init took: (0.097116s)
+[2019.12.11-20.17.11:940][961]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/level/project.project to /Game/level/UEDPIE_0_project.project (0.136170s)
+[2019.12.11-20.17.11:968][961]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2019.12.11-20.17.11:973][961]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.12.11-20.17.11:989][961]LogInit: FAudioDevice initialized.
+[2019.12.11-20.17.11:997][961]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.11-20.17.12:032][961]LogLoad: Game class is 'game_mode_C'
+[2019.12.11-20.17.12:049][961]LogWorld: Bringing World /Game/level/UEDPIE_0_project.project up for play (max tick rate 0) at 2019.12.11-14.17.12
+[2019.12.11-20.17.12:051][961]LogWorld: Bringing up level for play took: 0.018186
+[2019.12.11-20.17.12:068][961]PIE: Play in editor start time for /Game/level/UEDPIE_0_project -0.306
+[2019.12.11-20.17.12:068][961]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/level/project.project:PersistentLevel' has LevelScriptBlueprint '/Game/level/project.project:PersistentLevel.project' with GeneratedClass '/Game/level/project.project_C' with ClassGeneratedBy '/Game/level/project.project:PersistentLevel.project'
+[2019.12.11-20.17.32:723][418]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/level/project.project:PersistentLevel' has LevelScriptBlueprint '/Game/level/project.project:PersistentLevel.project' with GeneratedClass '/Game/level/project.project_C' with ClassGeneratedBy '/Game/level/project.project:PersistentLevel.project'
+[2019.12.11-20.17.32:723][418]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.11-20.17.32:734][418]LogSlate: Window 'Narutaco Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.12.11-20.17.32:772][418]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.12.11-20.17.32:773][418]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/level/project.project:PersistentLevel' has LevelScriptBlueprint '/Game/level/project.project:PersistentLevel.project' with GeneratedClass '/Game/level/project.project_C' with ClassGeneratedBy '/Game/level/project.project:PersistentLevel.project'
+[2019.12.11-20.17.32:815][418]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2019.12.11-20.17.32:873][419]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2019.12.11-20.17.36:253][797]LogSlate: Took 0.000206 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.12.11-20.17.36:264][797]LogAssetEditorManager: Opening Asset editor for Texture2D /Game/sprites/Narutaco_death.Narutaco_death
+[2019.12.11-20.17.37:065][797]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2019.12.11-20.17.41:433][235]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2019.12.11-20.17.42:879][235]LogSlate: Window 'Save Content' being destroyed
+[2019.12.11-20.17.45:159][361]LogSlate: Window 'Narutaco_death' being destroyed
+[2019.12.11-20.17.45:161][361]LogSlate: Window 'Narutaco_death' being destroyed
+[2019.12.11-20.18.05:942][637]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/blueprints/character.character
+[2019.12.11-20.18.06:605][637]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 121 classes and 0 folders.
+[2019.12.11-20.18.08:244][637]LogSlate: Took 0.010501 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.12.11-20.18.11:734][973]LogSlate: Took 0.013073 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.12.11-20.18.45:295][385]LogSlate: Window 'character' being destroyed
+[2019.12.11-20.18.45:303][385]LogSlate: Window 'character' being destroyed
+[2019.12.11-20.18.51:668][953]LogEditorViewport: Clicking on Actor (LMB): Spike_C (Spike)
+[2019.12.11-20.19.05:516][466]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Spike_Tile_2__no_background__Sprite2)
+[2019.12.11-20.19.06:370][561]LogEditorViewport: Clicking on Actor (context menu): PaperSpriteActor (Spike_Tile_2__no_background__Sprite2)
+[2019.12.11-20.19.06:635][561]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.12.11-20.19.08:539][737]LogEditorViewport: Clicking Background
+[2019.12.11-20.19.11:407][ 78]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.11-20.19.14:565][400]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.11-20.19.17:296][698]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Spike_Tile_2__no_background__Sprite2)
+[2019.12.11-20.19.22:410][251]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.11-20.19.23:342][323]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.11-20.19.31:237][704]LogEditorViewport: Clicking Background
+[2019.12.11-20.19.34:338][962]Cmd: SELECT NONE
+[2019.12.11-20.19.36:364][199]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.11-20.19.40:007][573]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.12.11-20.19.44:150][ 29]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.11-20.19.52:994][770]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.12.11-20.19.54:334][911]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.12.11-20.19.55:696][ 73]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.12.11-20.20.01:585][700]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Tile1_Sprite179)
+[2019.12.11-20.20.02:649][821]LogEditorViewport: Clicking Background
+[2019.12.11-20.20.03:376][905]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Spike_Tile_2__no_background__Sprite2)
+[2019.12.11-20.20.04:156][991]LogEditorViewport: Clicking Background
+[2019.12.11-20.20.07:692][403]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Spike_Tile_2__no_background__Sprite2)
+[2019.12.11-20.20.08:490][491]LogEditorViewport: Clicking on Actor (context menu): PaperSpriteActor (Spike_Tile_2__no_background__Sprite2)
+[2019.12.11-20.20.08:516][491]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.12.11-20.20.11:151][791]Cmd: DELETE
+[2019.12.11-20.20.11:151][791]Cmd: ACTOR DELETE
+[2019.12.11-20.20.11:303][791]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2019.12.11-20.20.11:361][791]LogUObjectHash: Compacting FUObjectHashTables data took   4.50ms
+[2019.12.11-20.20.11:361][791]LogEditorActor: Deleted 1 Actors (0.210 secs)
+[2019.12.11-20.20.12:407][907]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Spike_Tile_2__no_background__Sprite3)
+[2019.12.11-20.20.12:809][948]LogEditorViewport: Clicking on Actor (context menu): PaperSpriteActor (Spike_Tile_2__no_background__Sprite3)
+[2019.12.11-20.20.12:834][948]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.12.11-20.20.14:942][179]Cmd: DELETE
+[2019.12.11-20.20.14:942][179]Cmd: ACTOR DELETE
+[2019.12.11-20.20.14:956][179]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2019.12.11-20.20.14:990][179]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2019.12.11-20.20.14:991][179]LogEditorActor: Deleted 1 Actors (0.049 secs)
+[2019.12.11-20.20.15:957][281]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Spike_Tile_2__no_background__Sprite)
+[2019.12.11-20.20.16:224][306]LogEditorViewport: Clicking on Actor (context menu): PaperSpriteActor (Spike_Tile_2__no_background__Sprite)
+[2019.12.11-20.20.16:249][306]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.12.11-20.20.18:722][567]Cmd: DELETE
+[2019.12.11-20.20.18:722][567]Cmd: ACTOR DELETE
+[2019.12.11-20.20.18:736][567]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2019.12.11-20.20.18:767][567]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2019.12.11-20.20.18:767][567]LogEditorActor: Deleted 1 Actors (0.044 secs)
+[2019.12.11-20.20.20:785][792]LogEditorViewport: Clicking on Actor (LMB): Spike_C (Spike3)
+[2019.12.11-20.20.23:272][ 74]LogEditorViewport: Clicking on Actor (LMB): Spike_C (Spike)
+[2019.12.11-20.20.26:393][431]LogEditorViewport: Clicking Background
+[2019.12.11-20.20.32:188][ 92]LogEditorViewport: Clicking on Actor (LMB): Spike_C (Spike5)
+[2019.12.11-20.20.46:104][625]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Spike_Tile_2__no_background__Sprite6)
+[2019.12.11-20.20.46:181][627]LogEditorViewport: Clicking on Component (LMB): PaperSpriteComponent (RenderComponent)
+[2019.12.11-20.20.47:448][774]LogEditorViewport: Clicking on Component (context menu): PaperSpriteComponent (RenderComponent)
+[2019.12.11-20.20.47:467][774]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.12.11-20.20.49:816][ 40]LogEditorViewport: Clicking Background
+[2019.12.11-20.20.50:596][130]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Spike_Tile_2__no_background__Sprite6)
+[2019.12.11-20.20.50:884][157]LogEditorViewport: Clicking on Actor (context menu): PaperSpriteActor (Spike_Tile_2__no_background__Sprite6)
+[2019.12.11-20.20.50:914][157]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.12.11-20.20.52:693][345]Cmd: DELETE
+[2019.12.11-20.20.52:693][345]Cmd: ACTOR DELETE
+[2019.12.11-20.20.52:706][345]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2019.12.11-20.20.52:741][345]LogUObjectHash: Compacting FUObjectHashTables data took   2.05ms
+[2019.12.11-20.20.52:741][345]LogEditorActor: Deleted 1 Actors (0.048 secs)
+[2019.12.11-20.20.53:882][458]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Spike_Tile_2__no_background__Sprite5)
+[2019.12.11-20.20.54:940][578]Cmd: SELECT NONE
+[2019.12.11-20.20.55:883][691]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Spike_Tile_2__no_background__Sprite5)
+[2019.12.11-20.20.56:091][709]LogEditorViewport: Clicking on Actor (context menu): PaperSpriteActor (Spike_Tile_2__no_background__Sprite5)
+[2019.12.11-20.20.56:115][709]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.12.11-20.20.58:005][913]Cmd: DELETE
+[2019.12.11-20.20.58:005][913]Cmd: ACTOR DELETE
+[2019.12.11-20.20.58:018][913]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2019.12.11-20.20.58:051][913]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2019.12.11-20.20.58:051][913]LogEditorActor: Deleted 1 Actors (0.046 secs)
+[2019.12.11-20.20.58:979][ 11]LogEditorViewport: Clicking on Actor (context menu): PaperSpriteActor (Spike_Tile_2__no_background__Sprite4)
+[2019.12.11-20.20.59:025][ 11]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.12.11-20.21.02:361][383]Cmd: DELETE
+[2019.12.11-20.21.02:361][383]Cmd: ACTOR DELETE
+[2019.12.11-20.21.02:374][383]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2019.12.11-20.21.02:400][383]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2019.12.11-20.21.02:400][383]LogEditorActor: Deleted 1 Actors (0.039 secs)
+[2019.12.11-20.21.04:570][642]LogEditorViewport: Clicking on Actor (LMB): Spike_C (Spike4)
+[2019.12.11-20.21.19:505][298]LogEditorViewport: Clicking on Actor (context menu): PaperSpriteActor (Spike_Tile_2__no_background__Sprite104)
+[2019.12.11-20.21.19:549][298]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.12.11-20.21.23:048][692]Cmd: DELETE
+[2019.12.11-20.21.23:048][692]Cmd: ACTOR DELETE
+[2019.12.11-20.21.23:061][692]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2019.12.11-20.21.23:096][692]LogUObjectHash: Compacting FUObjectHashTables data took   2.10ms
+[2019.12.11-20.21.23:096][692]LogEditorActor: Deleted 1 Actors (0.048 secs)
+[2019.12.11-20.21.24:107][797]LogEditorViewport: Clicking on Actor (context menu): PaperSpriteActor (Spike_Tile_2__no_background__Sprite103)
+[2019.12.11-20.21.24:153][797]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.12.11-20.21.28:452][278]Cmd: DELETE
+[2019.12.11-20.21.28:453][278]Cmd: ACTOR DELETE
+[2019.12.11-20.21.28:465][278]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2019.12.11-20.21.28:500][278]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2019.12.11-20.21.28:500][278]LogEditorActor: Deleted 1 Actors (0.048 secs)
+[2019.12.11-20.21.29:282][352]LogEditorViewport: Clicking on Actor (context menu): PaperSpriteActor (Spike_Tile_2__no_background__Sprite102)
+[2019.12.11-20.21.29:326][352]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.12.11-20.21.31:363][577]Cmd: DELETE
+[2019.12.11-20.21.31:363][577]Cmd: ACTOR DELETE
+[2019.12.11-20.21.31:376][577]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2019.12.11-20.21.31:405][577]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2019.12.11-20.21.31:405][577]LogEditorActor: Deleted 1 Actors (0.042 secs)
+[2019.12.11-20.21.32:716][720]LogEditorViewport: Clicking on Actor (LMB): Spike_C (Spike8)
+[2019.12.11-20.21.41:559][735]LogEditorViewport: Clicking Background
+[2019.12.11-20.21.49:041][383]LogEditorViewport: Clicking on Actor (LMB): Spike_C (Spike11)
+[2019.12.11-20.21.57:413][157]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Spike_Tile_2__no_background__Sprite107)
+[2019.12.11-20.21.57:655][180]LogEditorViewport: Clicking on Actor (context menu): PaperSpriteActor (Spike_Tile_2__no_background__Sprite107)
+[2019.12.11-20.21.57:676][180]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.12.11-20.22.00:148][450]Cmd: DELETE
+[2019.12.11-20.22.00:148][450]Cmd: ACTOR DELETE
+[2019.12.11-20.22.00:160][450]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2019.12.11-20.22.00:198][450]LogUObjectHash: Compacting FUObjectHashTables data took   2.36ms
+[2019.12.11-20.22.00:198][450]LogEditorActor: Deleted 1 Actors (0.050 secs)
+[2019.12.11-20.22.01:267][577]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Spike_Tile_2__no_background__Sprite106)
+[2019.12.11-20.22.02:456][713]LogEditorViewport: Clicking on Actor (context menu): PaperSpriteActor (Spike_Tile_2__no_background__Sprite106)
+[2019.12.11-20.22.02:478][713]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.12.11-20.22.04:608][951]Cmd: DELETE
+[2019.12.11-20.22.04:608][951]Cmd: ACTOR DELETE
+[2019.12.11-20.22.04:621][951]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2019.12.11-20.22.04:653][951]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2019.12.11-20.22.04:654][951]LogEditorActor: Deleted 1 Actors (0.045 secs)
+[2019.12.11-20.22.05:507][ 52]LogEditorViewport: Clicking on Actor (context menu): PaperSpriteActor (Spike_Tile_2__no_background__Sprite105)
+[2019.12.11-20.22.05:548][ 52]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.12.11-20.22.07:627][280]Cmd: DELETE
+[2019.12.11-20.22.07:627][280]Cmd: ACTOR DELETE
+[2019.12.11-20.22.07:640][280]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2019.12.11-20.22.07:665][280]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2019.12.11-20.22.07:666][280]LogEditorActor: Deleted 1 Actors (0.038 secs)
+[2019.12.11-20.22.08:993][438]LogEditorViewport: Clicking on Actor (LMB): Spike_C (Spike12)
+[2019.12.11-20.22.37:419][855]LogEditorViewport: Clicking on Actor (LMB): Spike_C (Spike2)
+[2019.12.11-20.23.27:142][372]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.11-20.23.27:231][380]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/level/project" FILE="../../../../../../Users/Enrique/Documents/GitHub/Narutaco/Narutaco/Content/level/project.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.12.11-20.23.27:340][380]LogUObjectHash: Compacting FUObjectHashTables data took   2.22ms
+[2019.12.11-20.23.28:613][380]LogSavePackage: Moving '../../../../../../Users/Enrique/Documents/GitHub/Narutaco/Narutaco/Saved/projectB9EE24324C38A5AD55AD5BB66785B592.tmp' to '../../../../../../Users/Enrique/Documents/GitHub/Narutaco/Narutaco/Content/level/project.umap'
+[2019.12.11-20.23.28:641][380]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/level/project_BuiltData" FILE="../../../../../../Users/Enrique/Documents/GitHub/Narutaco/Narutaco/Content/level/project_BuiltData.uasset" SILENT=true
+[2019.12.11-20.23.28:650][380]LogSavePackage: Moving '../../../../../../Users/Enrique/Documents/GitHub/Narutaco/Narutaco/Saved/project_BuiltDataC120A41547512C74BFC867BBC6ACA70A.tmp' to '../../../../../../Users/Enrique/Documents/GitHub/Narutaco/Narutaco/Content/level/project_BuiltData.uasset'
+[2019.12.11-20.23.29:512][456]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.11-20.23.29:620][469]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.12.11-20.23.29:785][469]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/level/project.project:PersistentLevel' has LevelScriptBlueprint '/Game/level/project.project:PersistentLevel.project' with GeneratedClass '/Game/level/project.project_C' with ClassGeneratedBy '/Game/level/project.project:PersistentLevel.project'
+[2019.12.11-20.23.29:785][469]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.12.11-20.23.29:786][469]PIE: New page: PIE session: project (Dec 11, 2019, 8:23:29 AM)
+[2019.12.11-20.23.29:786][469]LogPlayLevel: Creating play world package: /Game/level/UEDPIE_0_project
+[2019.12.11-20.23.29:825][469]LogPlayLevel: PIE: StaticDuplicateObject took: (0.039695s)
+[2019.12.11-20.23.29:826][469]LogAIModule: Creating AISystem for world project
+[2019.12.11-20.23.29:826][469]LogPlayLevel: PIE: World Init took: (0.000650s)
+[2019.12.11-20.23.29:826][469]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/level/project.project to /Game/level/UEDPIE_0_project.project (0.040562s)
+[2019.12.11-20.23.29:858][469]LogUObjectHash: Compacting FUObjectHashTables data took   2.97ms
+[2019.12.11-20.23.29:864][469]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.12.11-20.23.29:880][469]LogInit: FAudioDevice initialized.
+[2019.12.11-20.23.29:891][469]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.11-20.23.29:922][469]LogLoad: Game class is 'game_mode_C'
+[2019.12.11-20.23.29:939][469]LogWorld: Bringing World /Game/level/UEDPIE_0_project.project up for play (max tick rate 0) at 2019.12.11-14.23.29
+[2019.12.11-20.23.29:942][469]LogWorld: Bringing up level for play took: 0.019375
+[2019.12.11-20.23.29:959][469]PIE: Play in editor start time for /Game/level/UEDPIE_0_project -0.415
+[2019.12.11-20.23.29:959][469]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/level/project.project:PersistentLevel' has LevelScriptBlueprint '/Game/level/project.project:PersistentLevel.project' with GeneratedClass '/Game/level/project.project_C' with ClassGeneratedBy '/Game/level/project.project:PersistentLevel.project'
+[2019.12.11-20.23.37:012][301]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/level/project.project:PersistentLevel' has LevelScriptBlueprint '/Game/level/project.project:PersistentLevel.project' with GeneratedClass '/Game/level/project.project_C' with ClassGeneratedBy '/Game/level/project.project:PersistentLevel.project'
+[2019.12.11-20.23.37:012][301]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.11-20.23.37:024][301]LogSlate: Window 'Narutaco Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.12.11-20.23.37:090][301]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.12.11-20.23.37:090][301]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/level/project.project:PersistentLevel' has LevelScriptBlueprint '/Game/level/project.project:PersistentLevel.project' with GeneratedClass '/Game/level/project.project_C' with ClassGeneratedBy '/Game/level/project.project:PersistentLevel.project'
+[2019.12.11-20.23.37:135][301]LogUObjectHash: Compacting FUObjectHashTables data took   3.01ms
+[2019.12.11-20.23.37:152][302]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2019.12.11-20.23.38:243][412]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.11-20.23.38:399][430]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/blueprints/character.character
+[2019.12.11-20.27.39:144][918]LogSlate: Took 0.009306 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2019.12.11-20.27.45:040][420]BlueprintLog: New page: Compile character
+[2019.12.11-20.27.45:256][420]LogUObjectHash: Compacting FUObjectHashTables data took   4.09ms
+[2019.12.11-20.27.47:460][597]LogSlate: Window 'character' being destroyed
+[2019.12.11-20.27.47:468][597]LogSlate: Window 'character' being destroyed
+[2019.12.11-20.27.48:333][682]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.11-20.27.48:416][692]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.12.11-20.27.48:427][692]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/level/project.project:PersistentLevel' has LevelScriptBlueprint '/Game/level/project.project:PersistentLevel.project' with GeneratedClass '/Game/level/project.project_C' with ClassGeneratedBy '/Game/level/project.project:PersistentLevel.project'
+[2019.12.11-20.27.48:427][692]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.12.11-20.27.48:427][692]PIE: New page: PIE session: project (Dec 11, 2019, 8:27:48 AM)
+[2019.12.11-20.27.48:427][692]LogPlayLevel: Creating play world package: /Game/level/UEDPIE_0_project
+[2019.12.11-20.27.48:467][692]LogPlayLevel: PIE: StaticDuplicateObject took: (0.039898s)
+[2019.12.11-20.27.48:468][692]LogAIModule: Creating AISystem for world project
+[2019.12.11-20.27.48:468][692]LogPlayLevel: PIE: World Init took: (0.000671s)
+[2019.12.11-20.27.48:468][692]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/level/project.project to /Game/level/UEDPIE_0_project.project (0.040805s)
+[2019.12.11-20.27.48:498][692]LogUObjectHash: Compacting FUObjectHashTables data took   3.73ms
+[2019.12.11-20.27.48:504][692]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.12.11-20.27.48:520][692]LogInit: FAudioDevice initialized.
+[2019.12.11-20.27.48:528][692]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.11-20.27.48:558][692]LogLoad: Game class is 'game_mode_C'
+[2019.12.11-20.27.48:573][692]LogWorld: Bringing World /Game/level/UEDPIE_0_project.project up for play (max tick rate 0) at 2019.12.11-14.27.48
+[2019.12.11-20.27.48:576][692]LogWorld: Bringing up level for play took: 0.017431
+[2019.12.11-20.27.48:593][692]PIE: Play in editor start time for /Game/level/UEDPIE_0_project 0.219
+[2019.12.11-20.27.48:594][692]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/level/project.project:PersistentLevel' has LevelScriptBlueprint '/Game/level/project.project:PersistentLevel.project' with GeneratedClass '/Game/level/project.project_C' with ClassGeneratedBy '/Game/level/project.project:PersistentLevel.project'
+[2019.12.11-20.27.58:195][837]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/level/project.project:PersistentLevel' has LevelScriptBlueprint '/Game/level/project.project:PersistentLevel.project' with GeneratedClass '/Game/level/project.project_C' with ClassGeneratedBy '/Game/level/project.project:PersistentLevel.project'
+[2019.12.11-20.27.58:196][837]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.11-20.27.58:207][837]LogSlate: Window 'Narutaco Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.12.11-20.27.58:275][837]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.12.11-20.27.58:275][837]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/level/project.project:PersistentLevel' has LevelScriptBlueprint '/Game/level/project.project:PersistentLevel.project' with GeneratedClass '/Game/level/project.project_C' with ClassGeneratedBy '/Game/level/project.project:PersistentLevel.project'
+[2019.12.11-20.27.58:324][837]LogUObjectHash: Compacting FUObjectHashTables data took   2.69ms
+[2019.12.11-20.27.58:340][838]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2019.12.11-20.28.08:390][720]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.11-20.28.08:530][736]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/blueprints/character.character
+[2019.12.11-20.29.12:049][181]BlueprintLog: New page: Compile character
+[2019.12.11-20.29.12:275][181]LogUObjectHash: Compacting FUObjectHashTables data took   3.82ms
+[2019.12.11-20.29.13:429][255]LogSlate: Window 'character' being destroyed
+[2019.12.11-20.29.13:437][255]LogSlate: Window 'character' being destroyed
+[2019.12.11-20.29.14:485][370]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.11-20.29.14:593][383]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.12.11-20.29.14:604][383]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/level/project.project:PersistentLevel' has LevelScriptBlueprint '/Game/level/project.project:PersistentLevel.project' with GeneratedClass '/Game/level/project.project_C' with ClassGeneratedBy '/Game/level/project.project:PersistentLevel.project'
+[2019.12.11-20.29.14:604][383]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.12.11-20.29.14:604][383]PIE: New page: PIE session: project (Dec 11, 2019, 8:29:14 AM)
+[2019.12.11-20.29.14:605][383]LogPlayLevel: Creating play world package: /Game/level/UEDPIE_0_project
+[2019.12.11-20.29.14:644][383]LogPlayLevel: PIE: StaticDuplicateObject took: (0.039678s)
+[2019.12.11-20.29.14:645][383]LogAIModule: Creating AISystem for world project
+[2019.12.11-20.29.14:645][383]LogPlayLevel: PIE: World Init took: (0.000614s)
+[2019.12.11-20.29.14:645][383]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/level/project.project to /Game/level/UEDPIE_0_project.project (0.040521s)
+[2019.12.11-20.29.14:682][383]LogUObjectHash: Compacting FUObjectHashTables data took   4.27ms
+[2019.12.11-20.29.14:687][383]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.12.11-20.29.14:702][383]LogInit: FAudioDevice initialized.
+[2019.12.11-20.29.14:709][383]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.11-20.29.14:738][383]LogLoad: Game class is 'game_mode_C'
+[2019.12.11-20.29.14:755][383]LogWorld: Bringing World /Game/level/UEDPIE_0_project.project up for play (max tick rate 0) at 2019.12.11-14.29.14
+[2019.12.11-20.29.14:758][383]LogWorld: Bringing up level for play took: 0.018586
+[2019.12.11-20.29.14:775][383]PIE: Play in editor start time for /Game/level/UEDPIE_0_project 0.402
+[2019.12.11-20.29.14:776][383]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/level/project.project:PersistentLevel' has LevelScriptBlueprint '/Game/level/project.project:PersistentLevel.project' with GeneratedClass '/Game/level/project.project_C' with ClassGeneratedBy '/Game/level/project.project:PersistentLevel.project'
+[2019.12.11-20.29.35:715][887]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/level/project.project:PersistentLevel' has LevelScriptBlueprint '/Game/level/project.project:PersistentLevel.project' with GeneratedClass '/Game/level/project.project_C' with ClassGeneratedBy '/Game/level/project.project:PersistentLevel.project'
+[2019.12.11-20.29.35:716][887]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.11-20.29.35:727][887]LogSlate: Window 'Narutaco Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.12.11-20.29.35:780][887]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.12.11-20.29.35:780][887]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/level/project.project:PersistentLevel' has LevelScriptBlueprint '/Game/level/project.project:PersistentLevel.project' with GeneratedClass '/Game/level/project.project_C' with ClassGeneratedBy '/Game/level/project.project:PersistentLevel.project'
+[2019.12.11-20.29.35:830][887]LogUObjectHash: Compacting FUObjectHashTables data took   2.70ms
+[2019.12.11-20.29.35:846][888]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2019.12.11-20.29.43:468][333]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.12.11-20.29.43:652][346]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.12.11-20.29.44:420][438]LogEditorViewport: Clicking Background
+[2019.12.11-20.29.45:248][533]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.11-20.29.45:319][539]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/level/project" FILE="../../../../../../Users/Enrique/Documents/GitHub/Narutaco/Narutaco/Content/level/project.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.12.11-20.29.45:348][539]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2019.12.11-20.29.46:149][539]LogSavePackage: Moving '../../../../../../Users/Enrique/Documents/GitHub/Narutaco/Narutaco/Saved/project04D7A0F945230868039DF297235B3F90.tmp' to '../../../../../../Users/Enrique/Documents/GitHub/Narutaco/Narutaco/Content/level/project.umap'
+[2019.12.11-20.29.46:174][539]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/level/project_BuiltData" FILE="../../../../../../Users/Enrique/Documents/GitHub/Narutaco/Narutaco/Content/level/project_BuiltData.uasset" SILENT=true
+[2019.12.11-20.29.46:183][539]LogSavePackage: Moving '../../../../../../Users/Enrique/Documents/GitHub/Narutaco/Narutaco/Saved/project_BuiltData7E12AAA74B43D6C7DD695F877EBE66AD.tmp' to '../../../../../../Users/Enrique/Documents/GitHub/Narutaco/Narutaco/Content/level/project_BuiltData.uasset'
+[2019.12.11-20.29.48:119][755]LogEditorViewport: Clicking Background
+[2019.12.11-20.29.48:800][830]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.11-20.29.55:857][617]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.11-20.29.59:974][988]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.11-20.30.01:446][109]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.11-20.30.02:610][212]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.12.11-20.30.05:926][605]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.12.11-20.30.07:390][774]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.12.11-20.30.08:677][922]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.12.11-20.30.14:929][553]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.12.11-20.30.28:451][837]LogEditorViewport: Clicking on Actor (context menu): PaperSpriteActor (Spike_Tile_2__no_background__Sprite49)
+[2019.12.11-20.30.28:485][837]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.12.11-20.30.30:751][ 72]Cmd: DELETE
+[2019.12.11-20.30.30:751][ 72]Cmd: ACTOR DELETE
+[2019.12.11-20.30.30:773][ 72]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2019.12.11-20.30.30:774][ 72]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2019.12.11-20.30.30:774][ 72]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2019.12.11-20.30.30:775][ 72]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2019.12.11-20.30.30:775][ 72]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2019.12.11-20.30.30:775][ 72]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2019.12.11-20.30.30:776][ 72]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2019.12.11-20.30.30:776][ 72]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2019.12.11-20.30.30:776][ 72]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2019.12.11-20.30.30:777][ 72]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2019.12.11-20.30.30:777][ 72]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2019.12.11-20.30.30:777][ 72]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2019.12.11-20.30.30:778][ 72]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2019.12.11-20.30.30:778][ 72]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2019.12.11-20.30.30:779][ 72]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2019.12.11-20.30.30:779][ 72]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2019.12.11-20.30.30:779][ 72]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2019.12.11-20.30.30:780][ 72]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2019.12.11-20.30.30:780][ 72]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2019.12.11-20.30.30:780][ 72]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2019.12.11-20.30.30:781][ 72]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2019.12.11-20.30.30:781][ 72]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2019.12.11-20.30.30:781][ 72]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2019.12.11-20.30.30:782][ 72]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2019.12.11-20.30.30:782][ 72]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2019.12.11-20.30.30:782][ 72]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2019.12.11-20.30.30:783][ 72]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2019.12.11-20.30.30:783][ 72]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2019.12.11-20.30.30:783][ 72]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2019.12.11-20.30.30:784][ 72]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2019.12.11-20.30.30:784][ 72]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2019.12.11-20.30.30:785][ 72]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2019.12.11-20.30.30:785][ 72]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2019.12.11-20.30.30:785][ 72]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2019.12.11-20.30.30:786][ 72]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2019.12.11-20.30.30:786][ 72]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2019.12.11-20.30.30:786][ 72]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2019.12.11-20.30.30:787][ 72]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2019.12.11-20.30.30:787][ 72]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2019.12.11-20.30.30:787][ 72]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2019.12.11-20.30.30:788][ 72]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2019.12.11-20.30.30:788][ 72]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2019.12.11-20.30.30:788][ 72]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2019.12.11-20.30.30:789][ 72]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2019.12.11-20.30.30:789][ 72]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2019.12.11-20.30.30:790][ 72]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2019.12.11-20.30.30:790][ 72]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2019.12.11-20.30.30:790][ 72]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2019.12.11-20.30.30:791][ 72]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2019.12.11-20.30.30:791][ 72]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2019.12.11-20.30.30:791][ 72]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2019.12.11-20.30.30:826][ 72]LogUObjectHash: Compacting FUObjectHashTables data took   3.29ms
+[2019.12.11-20.30.30:826][ 72]LogEditorActor: Deleted 51 Actors (0.075 secs)
+[2019.12.11-20.30.37:578][755]LogEditorViewport: Clicking Background
+[2019.12.11-20.30.41:423][149]LogEditorViewport: Clicking on Actor (context menu): PaperSpriteActor (Spike_Tile_2__no_background__Sprite98)
+[2019.12.11-20.30.41:457][149]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.12.11-20.30.43:865][406]Cmd: DELETE
+[2019.12.11-20.30.43:865][406]Cmd: ACTOR DELETE
+[2019.12.11-20.30.43:884][406]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2019.12.11-20.30.43:885][406]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2019.12.11-20.30.43:885][406]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2019.12.11-20.30.43:886][406]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2019.12.11-20.30.43:886][406]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2019.12.11-20.30.43:886][406]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2019.12.11-20.30.43:887][406]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2019.12.11-20.30.43:887][406]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2019.12.11-20.30.43:887][406]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2019.12.11-20.30.43:888][406]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2019.12.11-20.30.43:888][406]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2019.12.11-20.30.43:889][406]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2019.12.11-20.30.43:889][406]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2019.12.11-20.30.43:889][406]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2019.12.11-20.30.43:890][406]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2019.12.11-20.30.43:890][406]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2019.12.11-20.30.43:891][406]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2019.12.11-20.30.43:891][406]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2019.12.11-20.30.43:891][406]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2019.12.11-20.30.43:892][406]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2019.12.11-20.30.43:892][406]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2019.12.11-20.30.43:892][406]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2019.12.11-20.30.43:893][406]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2019.12.11-20.30.43:893][406]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2019.12.11-20.30.43:893][406]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2019.12.11-20.30.43:894][406]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2019.12.11-20.30.43:894][406]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2019.12.11-20.30.43:895][406]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2019.12.11-20.30.43:895][406]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2019.12.11-20.30.43:895][406]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2019.12.11-20.30.43:896][406]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2019.12.11-20.30.43:896][406]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2019.12.11-20.30.43:896][406]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2019.12.11-20.30.43:897][406]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2019.12.11-20.30.43:897][406]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2019.12.11-20.30.43:897][406]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2019.12.11-20.30.43:898][406]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2019.12.11-20.30.43:898][406]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2019.12.11-20.30.43:898][406]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2019.12.11-20.30.43:899][406]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2019.12.11-20.30.43:899][406]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2019.12.11-20.30.43:900][406]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2019.12.11-20.30.43:900][406]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2019.12.11-20.30.43:900][406]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2019.12.11-20.30.43:927][406]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2019.12.11-20.30.43:927][406]LogEditorActor: Deleted 44 Actors (0.062 secs)
+[2019.12.11-20.31.20:932][ 10]LogEditorViewport: Clicking on Actor (LMB): Spike_C (Spike37)
+[2019.12.11-20.31.23:565][310]LogEditorViewport: Clicking on Actor (LMB): Spike_C (Spike38)
+[2019.12.11-20.31.26:075][589]LogEditorViewport: Clicking on Actor (LMB): Spike_C (Spike39)
+[2019.12.11-20.31.27:891][791]LogEditorViewport: Clicking on Actor (LMB): Spike_C (Spike40)
+[2019.12.11-20.31.29:097][929]LogEditorViewport: Clicking Background
+[2019.12.11-20.31.33:662][440]LogEditorViewport: Clicking Background
+[2019.12.11-20.31.35:790][672]LogEditorViewport: Clicking Background
+[2019.12.11-20.31.38:954][ 19]LogEditorViewport: Clicking Background
+[2019.12.11-20.31.51:230][ 98]LogEditorViewport: Clicking Background
+[2019.12.11-20.32.00:138][877]LogEditorViewport: Clicking Background
+[2019.12.11-20.32.08:273][541]LogEditorViewport: Clicking Background
+[2019.12.11-20.32.10:836][803]LogEditorViewport: Clicking Background
+[2019.12.11-20.32.14:333][104]LogEditorViewport: Clicking Background
+[2019.12.11-20.32.15:463][235]LogEditorViewport: Clicking on Actor (LMB): Spike_C (Spike98)
+[2019.12.11-20.32.22:933][935]LogEditorViewport: Clicking Background
+[2019.12.11-20.32.37:067][368]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.11-20.32.37:163][377]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/level/project" FILE="../../../../../../Users/Enrique/Documents/GitHub/Narutaco/Narutaco/Content/level/project.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.12.11-20.32.37:230][377]LogUObjectHash: Compacting FUObjectHashTables data took   2.74ms
+[2019.12.11-20.32.38:133][377]LogSavePackage: Moving '../../../../../../Users/Enrique/Documents/GitHub/Narutaco/Narutaco/Saved/project2EB28C2546C58399F0CB0FBCD6F33147.tmp' to '../../../../../../Users/Enrique/Documents/GitHub/Narutaco/Narutaco/Content/level/project.umap'
+[2019.12.11-20.32.38:162][377]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/level/project_BuiltData" FILE="../../../../../../Users/Enrique/Documents/GitHub/Narutaco/Narutaco/Content/level/project_BuiltData.uasset" SILENT=true
+[2019.12.11-20.32.38:170][377]LogSavePackage: Moving '../../../../../../Users/Enrique/Documents/GitHub/Narutaco/Narutaco/Saved/project_BuiltData27B8A33747E8EA3118A4978CFBBABB2C.tmp' to '../../../../../../Users/Enrique/Documents/GitHub/Narutaco/Narutaco/Content/level/project_BuiltData.uasset'
+[2019.12.11-20.32.50:679][702]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.11-20.32.50:770][711]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/level/project" FILE="../../../../../../Users/Enrique/Documents/GitHub/Narutaco/Narutaco/Content/level/project.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.12.11-20.32.50:807][711]LogUObjectHash: Compacting FUObjectHashTables data took   2.90ms
+[2019.12.11-20.32.51:747][711]LogSavePackage: Moving '../../../../../../Users/Enrique/Documents/GitHub/Narutaco/Narutaco/Saved/project424C964A4F4D4EF834B164A4B05F99C0.tmp' to '../../../../../../Users/Enrique/Documents/GitHub/Narutaco/Narutaco/Content/level/project.umap'
+[2019.12.11-20.32.51:773][711]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/level/project_BuiltData" FILE="../../../../../../Users/Enrique/Documents/GitHub/Narutaco/Narutaco/Content/level/project_BuiltData.uasset" SILENT=true
+[2019.12.11-20.32.51:783][711]LogSavePackage: Moving '../../../../../../Users/Enrique/Documents/GitHub/Narutaco/Narutaco/Saved/project_BuiltData8B582280416CC4DC049980B272CC6EB3.tmp' to '../../../../../../Users/Enrique/Documents/GitHub/Narutaco/Narutaco/Content/level/project_BuiltData.uasset'
