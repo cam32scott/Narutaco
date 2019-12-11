@@ -1233,3 +1233,81 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.12.11-20.47.43:475][262]LogSavePackage: Moving '../../../../../../Users/Enrique/Documents/GitHub/Narutaco/Narutaco/Saved/project4825B96D4A5716C7A9B9E28E716F8D16.tmp' to '../../../../../../Users/Enrique/Documents/GitHub/Narutaco/Narutaco/Content/level/project.umap'
 [2019.12.11-20.47.43:501][262]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/level/project_BuiltData" FILE="../../../../../../Users/Enrique/Documents/GitHub/Narutaco/Narutaco/Content/level/project_BuiltData.uasset" SILENT=true
 [2019.12.11-20.47.43:510][262]LogSavePackage: Moving '../../../../../../Users/Enrique/Documents/GitHub/Narutaco/Narutaco/Saved/project_BuiltData4D244ED44FFC256FABE1ED9CB1BC92B9.tmp' to '../../../../../../Users/Enrique/Documents/GitHub/Narutaco/Narutaco/Content/level/project_BuiltData.uasset'
+[2019.12.11-20.48.22:250][  5]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.11-20.48.22:333][ 15]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.12.11-20.48.22:345][ 15]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/level/project.project:PersistentLevel' has LevelScriptBlueprint '/Game/level/project.project:PersistentLevel.project' with GeneratedClass '/Game/level/project.project_C' with ClassGeneratedBy '/Game/level/project.project:PersistentLevel.project'
+[2019.12.11-20.48.22:345][ 15]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.12.11-20.48.22:345][ 15]PIE: New page: PIE session: project (Dec 11, 2019, 8:48:22 AM)
+[2019.12.11-20.48.22:345][ 15]LogPlayLevel: Creating play world package: /Game/level/UEDPIE_0_project
+[2019.12.11-20.48.22:398][ 15]LogPlayLevel: PIE: StaticDuplicateObject took: (0.052675s)
+[2019.12.11-20.48.22:398][ 15]LogAIModule: Creating AISystem for world project
+[2019.12.11-20.48.22:398][ 15]LogPlayLevel: PIE: World Init took: (0.000623s)
+[2019.12.11-20.48.22:399][ 15]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/level/project.project to /Game/level/UEDPIE_0_project.project (0.053577s)
+[2019.12.11-20.48.22:434][ 15]LogUObjectHash: Compacting FUObjectHashTables data took   3.28ms
+[2019.12.11-20.48.22:439][ 15]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.12.11-20.48.22:455][ 15]LogInit: FAudioDevice initialized.
+[2019.12.11-20.48.22:462][ 15]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.11-20.48.22:496][ 15]LogLoad: Game class is 'game_mode_C'
+[2019.12.11-20.48.22:517][ 15]LogWorld: Bringing World /Game/level/UEDPIE_0_project.project up for play (max tick rate 0) at 2019.12.11-14.48.22
+[2019.12.11-20.48.22:523][ 15]LogWorld: Bringing up level for play took: 0.025559
+[2019.12.11-20.48.22:540][ 15]PIE: Play in editor start time for /Game/level/UEDPIE_0_project 0.167
+[2019.12.11-20.48.22:540][ 15]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/level/project.project:PersistentLevel' has LevelScriptBlueprint '/Game/level/project.project:PersistentLevel.project' with GeneratedClass '/Game/level/project.project_C' with ClassGeneratedBy '/Game/level/project.project:PersistentLevel.project'
+[2019.12.11-20.49.13:561][121]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/level/project.project:PersistentLevel' has LevelScriptBlueprint '/Game/level/project.project:PersistentLevel.project' with GeneratedClass '/Game/level/project.project_C' with ClassGeneratedBy '/Game/level/project.project:PersistentLevel.project'
+[2019.12.11-20.49.13:562][121]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.11-20.49.13:577][121]LogSlate: Window 'Narutaco Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.12.11-20.49.13:649][121]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.12.11-20.49.13:649][121]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/level/project.project:PersistentLevel' has LevelScriptBlueprint '/Game/level/project.project:PersistentLevel.project' with GeneratedClass '/Game/level/project.project_C' with ClassGeneratedBy '/Game/level/project.project:PersistentLevel.project'
+[2019.12.11-20.49.13:714][121]LogUObjectHash: Compacting FUObjectHashTables data took   3.83ms
+[2019.12.11-20.49.13:733][122]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2019.12.11-20.49.54:619][839]LogEditorViewport: Clicking Background
+[2019.12.11-20.50.01:259][395]LogEditorViewport: Clicking Background
+[2019.12.11-20.50.08:854][973]LogEditorViewport: Clicking Background
+[2019.12.11-20.50.25:520][314]LogEditorViewport: Clicking Background
+[2019.12.11-20.50.38:532][117]LogEditorViewport: Clicking Background
+[2019.12.11-20.50.45:247][823]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Tile1_Sprite667)
+[2019.12.11-20.50.46:013][906]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Tile1_Sprite1127)
+[2019.12.11-20.50.49:709][301]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Tile1_Sprite1128)
+[2019.12.11-20.50.51:141][466]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Tile1_Sprite1127)
+[2019.12.11-20.50.52:214][584]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Tile1_Sprite1135)
+[2019.12.11-20.50.54:406][815]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Tile1_Sprite1128)
+[2019.12.11-20.50.54:963][873]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Tile1_Sprite1127)
+[2019.12.11-20.50.56:615][ 47]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Tile1_Sprite1135)
+[2019.12.11-20.50.59:943][398]LogEditorViewport: Clicking Background
+[2019.12.11-20.51.11:666][330]LogEditorViewport: Clicking Background
+[2019.12.11-20.51.34:719][172]LogEditorViewport: Clicking Background
+[2019.12.11-20.51.52:145][831]LogEditorViewport: Clicking Background
+[2019.12.11-20.51.55:711][177]LogEditorViewport: Clicking Background
+[2019.12.11-20.52.03:921][838]LogEditorViewport: Clicking Background
+[2019.12.11-20.52.11:622][440]LogEditorViewport: Clicking Background
+[2019.12.11-20.52.28:901][798]LogEditorViewport: Clicking Background
+[2019.12.11-20.52.36:435][532]LogEditorViewport: Clicking Background
+[2019.12.11-20.52.43:995][254]LogEditorViewport: Clicking Background
+[2019.12.11-20.52.50:560][954]LogEditorViewport: Clicking Background
+[2019.12.11-20.52.58:435][692]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Tile1_Sprite1026)
+[2019.12.11-20.52.59:056][760]LogEditorViewport: Clicking Background
+[2019.12.11-20.53.23:351][510]LogEditorViewport: Clicking Background
+[2019.12.11-20.53.30:516][ 10]LogEditorViewport: Clicking Background
+[2019.12.11-20.53.35:788][386]LogEditorViewport: Clicking Background
+[2019.12.11-20.53.39:610][644]LogEditorViewport: Clicking Background
+[2019.12.11-20.53.45:579][138]LogEditorViewport: Clicking Background
+[2019.12.11-20.53.47:943][391]LogEditorViewport: Clicking on Actor (LMB): Spike_C (Spike185)
+[2019.12.11-20.54.03:132][781]LogEditorViewport: Clicking Background
+[2019.12.11-20.54.11:518][386]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.11-20.54.11:626][396]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/level/project" FILE="../../../../../../Users/Enrique/Documents/GitHub/Narutaco/Narutaco/Content/level/project.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.12.11-20.54.11:721][396]LogUObjectHash: Compacting FUObjectHashTables data took   3.52ms
+[2019.12.11-20.54.13:734][396]LogSavePackage: Moving '../../../../../../Users/Enrique/Documents/GitHub/Narutaco/Narutaco/Saved/project2D019407424D04519CBBE5BE03140DF7.tmp' to '../../../../../../Users/Enrique/Documents/GitHub/Narutaco/Narutaco/Content/level/project.umap'
+[2019.12.11-20.54.13:815][396]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/level/project_BuiltData" FILE="../../../../../../Users/Enrique/Documents/GitHub/Narutaco/Narutaco/Content/level/project_BuiltData.uasset" SILENT=true
+[2019.12.11-20.54.13:828][396]LogSavePackage: Moving '../../../../../../Users/Enrique/Documents/GitHub/Narutaco/Narutaco/Saved/project_BuiltData79AAB99B4C05A80D98CF62977574AB5D.tmp' to '../../../../../../Users/Enrique/Documents/GitHub/Narutaco/Narutaco/Content/level/project_BuiltData.uasset'
+[2019.12.11-20.54.46:315][262]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.11-20.54.46:432][274]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/level/project" FILE="../../../../../../Users/Enrique/Documents/GitHub/Narutaco/Narutaco/Content/level/project.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.12.11-20.54.46:467][274]LogUObjectHash: Compacting FUObjectHashTables data took   3.23ms
+[2019.12.11-20.54.47:851][274]LogSavePackage: Moving '../../../../../../Users/Enrique/Documents/GitHub/Narutaco/Narutaco/Saved/projectD089D241452D0C51DF06A680B88C9D21.tmp' to '../../../../../../Users/Enrique/Documents/GitHub/Narutaco/Narutaco/Content/level/project.umap'
+[2019.12.11-20.54.47:878][274]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/level/project_BuiltData" FILE="../../../../../../Users/Enrique/Documents/GitHub/Narutaco/Narutaco/Content/level/project_BuiltData.uasset" SILENT=true
+[2019.12.11-20.54.47:887][274]LogSavePackage: Moving '../../../../../../Users/Enrique/Documents/GitHub/Narutaco/Narutaco/Saved/project_BuiltData6DF6EB6F4102815ACEE54E812191D18E.tmp' to '../../../../../../Users/Enrique/Documents/GitHub/Narutaco/Narutaco/Content/level/project_BuiltData.uasset'
+[2019.12.11-20.55.04:318][299]LogEditorViewport: Clicking Background
+[2019.12.11-20.55.05:890][436]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.11-20.55.05:994][446]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/level/project" FILE="../../../../../../Users/Enrique/Documents/GitHub/Narutaco/Narutaco/Content/level/project.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.12.11-20.55.06:029][446]LogUObjectHash: Compacting FUObjectHashTables data took   3.13ms
+[2019.12.11-20.55.07:437][446]LogSavePackage: Moving '../../../../../../Users/Enrique/Documents/GitHub/Narutaco/Narutaco/Saved/project04E05F084D1E7D80E0CDC8998AD0D45E.tmp' to '../../../../../../Users/Enrique/Documents/GitHub/Narutaco/Narutaco/Content/level/project.umap'
+[2019.12.11-20.55.07:466][446]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/level/project_BuiltData" FILE="../../../../../../Users/Enrique/Documents/GitHub/Narutaco/Narutaco/Content/level/project_BuiltData.uasset" SILENT=true
+[2019.12.11-20.55.07:475][446]LogSavePackage: Moving '../../../../../../Users/Enrique/Documents/GitHub/Narutaco/Narutaco/Saved/project_BuiltData4C9517364015BBD85A22B3B63FE6FD1A.tmp' to '../../../../../../Users/Enrique/Documents/GitHub/Narutaco/Narutaco/Content/level/project_BuiltData.uasset'
